@@ -3,6 +3,12 @@
 	"EngineAssociation": "4.17",
 	"Category": "",
 	"Description": "",
+	"Plugins": [
+		{
+			"Name": "Paper2D",
+			"Enabled": false
+		}
+	],
 	"TargetPlatforms": [
 		"PS4",
 		"WindowsNoEditor"
