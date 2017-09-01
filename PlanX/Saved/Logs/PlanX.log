@@ -1,9 +1,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 09/01/17 13:28:35
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 9b13ac6fadc03ce11e9098a2dfc9d26b6aee97e5
 =======
 >>>>>>> 9b13ac6fadc03ce11e9098a2dfc9d26b6aee97e5
 =======
@@ -14,6 +17,9 @@
 >>>>>>> e41dd7a04177e686c276fba12b0d08b030c00651
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9b13ac6fadc03ce11e9098a2dfc9d26b6aee97e5
+=======
 >>>>>>> 9b13ac6fadc03ce11e9098a2dfc9d26b6aee97e5
 =======
 >>>>>>> 9b13ac6fadc03ce11e9098a2dfc9d26b6aee97e5
@@ -27,11 +33,14 @@ LogPlatformFile: Not using cached read wrapper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogInit: Display: RandInit(-1929583181) SRandInit(-1929583180).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.152889
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 9b13ac6fadc03ce11e9098a2dfc9d26b6aee97e5
 =======
 >>>>>>> 9b13ac6fadc03ce11e9098a2dfc9d26b6aee97e5
 =======
@@ -46,6 +55,9 @@ LogStats: Stats thread started at 0.147391
 >>>>>>> e41dd7a04177e686c276fba12b0d08b030c00651
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9b13ac6fadc03ce11e9098a2dfc9d26b6aee97e5
+=======
 >>>>>>> 9b13ac6fadc03ce11e9098a2dfc9d26b6aee97e5
 =======
 >>>>>>> 9b13ac6fadc03ce11e9098a2dfc9d26b6aee97e5
@@ -2920,6 +2932,9 @@ LogInit: Object subsystem initialized
 >>>>>>> e41dd7a04177e686c276fba12b0d08b030c00651
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9b13ac6fadc03ce11e9098a2dfc9d26b6aee97e5
+=======
 >>>>>>> 9b13ac6fadc03ce11e9098a2dfc9d26b6aee97e5
 =======
 >>>>>>> 9b13ac6fadc03ce11e9098a2dfc9d26b6aee97e5
