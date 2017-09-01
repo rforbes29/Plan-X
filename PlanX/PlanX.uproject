@@ -7,6 +7,10 @@
 		{
 			"Name": "Paper2D",
 			"Enabled": false
+		},
+		{
+			"Name": "Ansel",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
