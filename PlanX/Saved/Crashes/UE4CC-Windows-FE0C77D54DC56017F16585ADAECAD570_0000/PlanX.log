@@ -1,0 +1,513 @@
+﻿Log file open, 09/10/17 15:17:40
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: PlanX
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1691503306) SRandInit(-1691503306).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.207322
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin Ansel
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: Q:/Unreal Engine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.10-19.17.40:830][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.10-19.17.40:830][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.10-19.17.40:910][  0]LogInit: Computer: DAWN
+[2017.09.10-19.17.40:910][  0]LogInit: User: RobertForbes
+[2017.09.10-19.17.40:910][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.10-19.17.40:910][  0]LogInit: High frequency timer resolution =3.417977 MHz
+[2017.09.10-19.17.40:910][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.10-19.17.40:910][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.10-19.17.40:910][  0]LogMemory: Process Physical Memory: 277.92 MB used, 277.92 MB peak
+[2017.09.10-19.17.40:910][  0]LogMemory: Process Virtual Memory: 274.30 MB used, 274.30 MB peak
+[2017.09.10-19.17.40:910][  0]LogMemory: Physical Memory: 5638.35 MB used,  2505.50 MB free, 8143.85 MB total
+[2017.09.10-19.17.40:910][  0]LogMemory: Virtual Memory: 668.32 MB used,  2505.50 MB free, 134217728.00 MB total
+[2017.09.10-19.17.41:032][  0]LogInit: Using OS detected language (en-US).
+[2017.09.10-19.17.41:032][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.10-19.17.41:036][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.10-19.17.43:081][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.10-19.17.43:811][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.09.10-19.17.43:811][  0]LogD3D11RHI:       4058/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.10-19.17.43:812][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.10-19.17.43:812][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.10-19.17.43:812][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.10-19.17.43:817][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.10-19.17.43:817][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.10-19.17.43:817][  0]LogWindows: EnumDisplayDevices:
+[2017.09.10-19.17.43:817][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.09.10-19.17.43:817][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.09.10-19.17.43:817][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.09.10-19.17.43:817][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.09.10-19.17.43:817][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.10-19.17.43:817][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.09.10-19.17.43:817][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.09.10-19.17.43:817][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.09.10-19.17.43:817][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.10-19.17.44:462][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.10-19.17.44:505][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.10-19.17.44:508][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (../../../../../Unreal Projects/Plan-X/PlanX/Intermediate/Shaders/WorkingDirectory/4508/).
+[2017.09.10-19.17.44:508][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Robert Forbes/AppData/Local/Temp/UnrealShaderWorkingDir/BD0350544EF2A68A1A7DA89A8C61DB22/'.
+[2017.09.10-19.17.44:508][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.10-19.17.45:945][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.10-19.17.45:996][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.10-19.17.46:047][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.10-19.17.46:095][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.10-19.17.46:144][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.10-19.17.46:206][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.10-19.17.46:271][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.10-19.17.46:317][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.10-19.17.46:357][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.10-19.17.46:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.10-19.17.46:441][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.10-19.17.46:483][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.10-19.17.46:532][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.10-19.17.46:581][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.10-19.17.46:638][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.10-19.17.46:744][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.10-19.17.46:744][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.10-19.17.46:778][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.10-19.17.46:860][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.10-19.17.46:882][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.10-19.17.46:928][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.10-19.17.46:974][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.10-19.17.47:173][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.10-19.17.47:214][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.10-19.17.47:214][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.10-19.17.48:379][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.10-19.17.48:478][  0]LogDerivedDataCache: Loaded boot cache 0.10s 106MB C:/Users/Robert Forbes/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.10-19.17.48:478][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Robert Forbes/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.10-19.17.48:478][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Plan-X/PlanX/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.10-19.17.48:478][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.10-19.17.48:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/Plan-X/PlanX/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.10-19.17.48:479][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.10-19.17.48:501][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.10-19.17.48:512][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Robert Forbes/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.10-19.17.48:523][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.10-19.17.48:524][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.10-19.17.48:525][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.10-19.17.48:525][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.10-19.17.50:478][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
+[2017.09.10-19.17.50:932][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.10-19.17.51:422][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.10-19.17.51:492][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.10-19.17.51:492][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.10-19.17.51:492][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.10-19.17.51:492][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.10-19.17.51:492][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.10-19.17.51:493][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.10-19.17.52:228][  0]LogNetVersion: PlanX , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4232075429)
+[2017.09.10-19.17.52:675][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.056750 seconds
+[2017.09.10-19.17.52:681][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.10-19.17.52:681][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.10-19.17.52:681][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.10-19.17.52:721][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.10-19.17.58:450][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.10-19.17.58:488][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.10-19.17.59:076][  0]SourceControl: Source control is disabled
+[2017.09.10-19.17.59:076][  0]SourceControl: Source control is disabled
+[2017.09.10-19.17.59:146][  0]SourceControl: Source control is disabled
+[2017.09.10-19.17.59:204][  0]SourceControl: Source control is disabled
+[2017.09.10-19.17.59:867][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.10-19.18.00:181][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2017.09.10-19.18.00:226][  0]LogOcInput: OculusInput pre-init called
+[2017.09.10-19.18.00:467][  0]LogEngine: Initializing Engine...
+[2017.09.10-19.19.01:100][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-21CE5F1D
+[2017.09.10-19.19.01:330][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.10-19.19.01:330][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.10-19.19.01:469][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.10-19.19.01:490][  0]LogInit: XAudio2 using 'REAL SPEAKERS!!!!!!!!!! (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.10-19.19.01:502][  0]LogInit: FAudioDevice initialized.
+[2017.09.10-19.19.01:628][  0]LogDerivedDataCache: Saved boot cache 0.13s 106MB C:/Users/Robert Forbes/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.10-19.19.01:645][  0]LogInit: Texture streaming: Enabled
+[2017.09.10-19.19.01:688][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.10-19.19.01:950][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.10-19.19.02:184][  0]LogInit: Transaction tracking system initialized
+[2017.09.10-19.19.02:564][  0]BlueprintLog: New page: Editor Load
+[2017.09.10-19.19.03:281][  0]LocalizationService: Localization service is disabled
+[2017.09.10-19.19.03:922][  0]LogConsoleResponse: Display: 
+[2017.09.10-19.19.04:400][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.10-19.19.04:400][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.10-19.19.04:400][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.10-19.19.04:406][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal Projects/Plan-X/PlanX/Content/' took 0.04s
+[2017.09.10-19.19.05:244][  0]SourceControl: Source control is disabled
+[2017.09.10-19.19.05:244][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.10-19.19.05:245][  0]LightingResults: New page: Lighting Build
+[2017.09.10-19.19.05:274][  0]MapCheck: New page: Map Check
+[2017.09.10-19.19.05:274][  0]LightingResults: New page: Lighting Build
+[2017.09.10-19.19.07:827][  0]LogAIModule: Creating AISystem for world Challange_L_1_0
+[2017.09.10-19.19.07:965][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.10-19.19.08:041][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.10-19.19.08:105][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.506ms to complete.
+[2017.09.10-19.19.08:105][  0]LogFileHelpers: Loading map 'Challange_L_1_0' took 2.861
+[2017.09.10-19.19.09:057][  0]LogCollectionManager: Loaded 0 collections in 0.001802 seconds
+[2017.09.10-19.19.09:226][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal Projects/Plan-X/PlanX/Saved/Collections/' took 0.01s
+[2017.09.10-19.19.09:226][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal Projects/Plan-X/PlanX/Content/Developers/RobertForbes/Collections/' took 0.01s
+[2017.09.10-19.19.09:226][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal Projects/Plan-X/PlanX/Content/Collections/' took 0.01s
+[2017.09.10-19.19.09:226][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.10-19.19.09:239][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2337 classes and 483 folders.
+[2017.09.10-19.19.09:383][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.09.10-19.19.11:009][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.09.10-19.19.11:163][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.09.10-19.19.11:957][  0]LogSlate: Took 0.000968 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.10-19.19.11:962][  0]LogSlate: Took 0.000806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.10-19.19.12:180][  0]LogSlate: Took 0.033279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.10-19.19.13:402][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
+[2017.09.10-19.19.14:583][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.09.10-19.19.14:583][  0]LogLoad: (Engine Initialization) Total time: 97.17 seconds
+[2017.09.10-19.19.14:583][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.10-19.19.14:583][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.10-19.19.14:583][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.10-19.19.14:924][  0]LogSteamVRController: Controller role for device 1 is 2 (invalid=0, left=1, right=2).
+[2017.09.10-19.19.14:925][  0]LogSteamVRController: Warning: Controller device 1 is being assigned to its prefered role 'right'.
+[2017.09.10-19.19.14:925][  0]LogSteamVRController: Controller role for device 2 is 0 (invalid=0, left=1, right=2).
+[2017.09.10-19.19.14:925][  0]LogSteamVRController: Putting controller 2 on the left hand because there is already a controller for the right.
+[2017.09.10-19.19.15:059][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.10-19.19.15:413][  0]LogSlate: Took 0.020733 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.10-19.19.15:452][  1]LogFileCache: Retrieving MD5 hashes for directory 'Q:/Unreal Projects/Plan-X/PlanX/Content/' took 0.50s
+[2017.09.10-19.19.15:483][  1]LogAssetRegistry: Asset discovery search completed in 85.0265 seconds
+[2017.09.10-19.19.15:485][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.10-19.19.15:485][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000118 seconds (updated 0 objects)
+[2017.09.10-19.19.40:916][406]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.10-19.19.41:941][406]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.09.10-19.19.44:252][406]LogSlate: Took 0.020102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.10-19.19.45:175][407]LogSlate: Took 0.018294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.10-19.20.24:949][ 32]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.09.10-19.20.51:283][747]LogRenderer: Reallocating scene render targets to support 1208x712 Format 26 NumSamples 1 (Frame:1).
+[2017.09.10-19.22.04:789][ 24]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PlanX
+[2017.09.10-19.22.04:789][ 24]LogTemp: CWD: Q:\Unreal Engine\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.10-19.22.04:789][ 24]LogTemp: Initial Dir: Q:\Unreal Engine\UE_4.17
+[2017.09.10-19.22.04:789][ 24]LogTemp: Env CWD: Q:\Unreal Engine\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.10-19.22.04:789][ 24]LogTemp: BranchPath = DAWN/Q/Unreal Engine/UE_4.17/Engine/Binaries --- GameBranchPath = DAWN/Q/Unreal Engine/UE_4.17/Engine/Binaries
+[2017.09.10-19.22.04:789][ 24]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Robert Forbes\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.10-19.23.05:865][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.10-19.23.05:964][499]PIE: New page: PIE session: Challange_L_1_0 (Sep 10, 2017, 11:23:05 AM)
+[2017.09.10-19.23.05:982][499]LogPlayLevel: Creating play world package: /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0
+[2017.09.10-19.23.06:028][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046078s)
+[2017.09.10-19.23.06:029][499]LogAIModule: Creating AISystem for world Challange_L_1_0
+[2017.09.10-19.23.06:029][499]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2017.09.10-19.23.06:045][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0.Challange_L_1_0 to /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0.Challange_L_1_0 (0.063014s)
+[2017.09.10-19.23.06:117][499]LogInit: XAudio2 using 'REAL SPEAKERS!!!!!!!!!! (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.10-19.23.06:128][499]LogInit: FAudioDevice initialized.
+[2017.09.10-19.23.06:283][499]LogLoad: Game class is 'GameMode'
+[2017.09.10-19.23.06:447][499]LogWorld: Bringing World /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0.Challange_L_1_0 up for play (max tick rate 0) at 2017.09.10-15.23.06
+[2017.09.10-19.23.06:479][499]LogWorld: Bringing up level for play took: 0.033341
+[2017.09.10-19.23.06:708][499]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.09.10-19.23.06:726][499]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.10-19.23.06:726][499]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.10-19.23.06:726][499]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.09.10-19.23.07:060][499]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.09.10-19.23.07:101][499]PIE: Play in editor start time for /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0 1.903
+[2017.09.10-19.23.07:264][499]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2017.09.10-19.23.07:383][500]LogRenderer: Reallocating scene render targets to support 3024x1680 Format 26 NumSamples 1 (Frame:1).
+[2017.09.10-19.25.44:761][637]LogEditorViewport: Clicking on Actor (context menu): PickUp_Disk_Blueprint_C (VR_Disc)
+[2017.09.10-19.27.25:343][200]LogSavePackage: Save=126.09ms
+[2017.09.10-19.27.25:343][200]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_Disk34FE2B994446AD8B0EECCC8CD2C23448.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.27.25:345][200]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.27.26:663][313]LogSavePackage: Save=7.17ms
+[2017.09.10-19.27.26:663][313]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_DiskC3FF75F84A8CD3F1EC5E9B83F7314135.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.27.26:664][313]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.27.27:319][355]LogSavePackage: Save=136.06ms
+[2017.09.10-19.27.27:319][355]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_Disk588720F84160AFDE0761EB90896ED139.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.27.27:320][355]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.27.27:617][374]LogSavePackage: Save=31.86ms
+[2017.09.10-19.27.27:617][374]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_Disk3BB3C3DD4E011A1D29DFB08B8091C12A.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.27.27:618][374]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.27.27:792][384]LogSavePackage: Save=12.98ms
+[2017.09.10-19.27.27:793][384]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_DiskAC2DB5524F42A9A9A1D3B0BACCBBAE35.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.27.27:794][384]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.27.28:357][433]LogSavePackage: Save=7.90ms
+[2017.09.10-19.27.28:357][433]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_DiskF758C03544EE57662601E5BD1DD88F98.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.27.28:359][433]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.28.05:950][359]LogSavePackage: Save=6.55ms
+[2017.09.10-19.28.05:950][359]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_DiskF4EAAE7D45982074B04A7996EA845F59.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.28.05:951][359]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.28.06:525][407]LogSavePackage: Save=6.55ms
+[2017.09.10-19.28.06:525][407]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_Disk0A2887BA4C2B4FBF3EB3CEA3D9BB092D.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.28.06:526][407]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.28.06:719][420]LogSavePackage: Save=6.76ms
+[2017.09.10-19.28.06:719][420]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_DiskE68F6E2D4201581B8DABA580F9A9570A.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.28.06:720][420]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.28.06:892][434]LogSavePackage: Save=6.59ms
+[2017.09.10-19.28.06:892][434]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_DiskC4486F9F4BCFF3BAD409A1B00D8FB987.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.28.06:894][434]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.28.07:079][446]LogSavePackage: Save=5.96ms
+[2017.09.10-19.28.07:079][446]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_Disk46AF26C041BB74EA9934DF86A5DD44D1.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.28.07:080][446]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.28.09:480][682]LogSavePackage: Save=30.25ms
+[2017.09.10-19.28.09:480][682]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_Disk6D70A8F64303717EF376888D1DCB252B.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.28.09:481][682]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.28.11:082][810]LogSavePackage: Save=82.16ms
+[2017.09.10-19.28.11:082][810]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Challange_L_1_00DACD6514585738F82DF4DB4BC70A865.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0.umap'
+[2017.09.10-19.28.11:101][810]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0.umap
+[2017.09.10-19.28.11:133][810]LogFileHelpers: Saving map 'Challange_L_1_0' took 0.243
+[2017.09.10-19.28.11:444][810]LogSavePackage: Save=297.03ms
+[2017.09.10-19.28.11:444][810]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/MotionControllerPawn3D10DC6247676CEDFCC12CA2ACCB2B45.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.09.10-19.28.11:462][810]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.09.10-19.29.20:301][471]LogSavePackage: Save=13.00ms
+[2017.09.10-19.29.20:301][471]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_Disk1E2B966B40BE25459BC4A6A501A8A24D.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.29.20:304][471]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.29.20:971][527]LogSavePackage: Save=6.14ms
+[2017.09.10-19.29.20:972][527]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_DiskEF96DB824C68F19C9B5632A2A0CF7584.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.29.20:973][527]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.29.21:123][536]LogSavePackage: Save=6.61ms
+[2017.09.10-19.29.21:123][536]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_Disk6E763C164CC98DCEB143E3A06F88DE1F.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.29.21:125][536]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.29.41:604][777]LogActorFactory: Actor Factory created Player_Disk
+[2017.09.10-19.29.42:377][843]LogActorFactory: Actor Factory created Player_Disk
+[2017.09.10-19.29.47:433][413]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.09.10-19.30.10:634][ 47]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.09.10-19.30.14:999][538]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.09.10-19.30.15:561][602]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.09.10-19.30.16:551][718]Cmd: TRANSACTION UNDO
+[2017.09.10-19.30.16:551][718]LogEditorTransaction: Undo Move Actors
+[2017.09.10-19.30.16:593][718]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.10-19.30.17:006][759]Cmd: TRANSACTION UNDO
+[2017.09.10-19.30.17:006][759]LogEditorTransaction: Undo Set actor location
+[2017.09.10-19.30.17:418][803]Cmd: TRANSACTION UNDO
+[2017.09.10-19.30.17:418][803]LogEditorTransaction: Undo Set actor location
+[2017.09.10-19.30.17:847][851]Cmd: TRANSACTION UNDO
+[2017.09.10-19.30.17:847][851]LogEditorTransaction: Undo Set actor location
+[2017.09.10-19.30.19:900][ 76]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.10-19.30.19:920][ 76]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.09.10-19.30.26:090][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_Ceiling)
+[2017.09.10-19.30.26:672][843]LogEditorViewport: Clicking on Actor (LMB): PickUp_Disk_Blueprint_C (VR_Disc)
+[2017.09.10-19.31.10:896][403]LogSavePackage: Save=72.03ms
+[2017.09.10-19.31.10:896][403]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Challange_L_1_072063A3B40B75CE0C5A602AAB605D5C9.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0.umap'
+[2017.09.10-19.31.10:899][403]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0.umap
+[2017.09.10-19.31.10:929][403]LogFileHelpers: Saving map 'Challange_L_1_0' took 0.192
+[2017.09.10-19.31.18:154][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.10-19.31.18:154][121]PIE: New page: PIE session: Challange_L_1_0 (Sep 10, 2017, 11:31:18 AM)
+[2017.09.10-19.31.18:155][121]LogPlayLevel: Creating play world package: /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0
+[2017.09.10-19.31.18:159][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004157s)
+[2017.09.10-19.31.18:160][121]LogAIModule: Creating AISystem for world Challange_L_1_0
+[2017.09.10-19.31.18:160][121]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2017.09.10-19.31.18:160][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0.Challange_L_1_0 to /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0.Challange_L_1_0 (0.005552s)
+[2017.09.10-19.31.18:191][121]LogInit: XAudio2 using 'REAL SPEAKERS!!!!!!!!!! (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.10-19.31.18:204][121]LogInit: FAudioDevice initialized.
+[2017.09.10-19.31.18:289][121]LogLoad: Game class is 'GameMode'
+[2017.09.10-19.31.18:292][121]LogWorld: Bringing World /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0.Challange_L_1_0 up for play (max tick rate 0) at 2017.09.10-15.31.18
+[2017.09.10-19.31.18:292][121]LogWorld: Bringing up level for play took: 0.002091
+[2017.09.10-19.31.18:293][121]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.10-19.31.18:293][121]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.10-19.31.18:293][121]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.09.10-19.31.18:296][121]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.09.10-19.31.18:301][121]PIE: Play in editor start time for /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0 1.103
+[2017.09.10-19.32.43:655][947]LogSavePackage: Save=12.87ms
+[2017.09.10-19.32.43:655][947]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_Disk412E9ADD458CABF37B98DE8DB742978C.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.32.43:658][947]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.32.44:363][ 13]LogSavePackage: Save=6.10ms
+[2017.09.10-19.32.44:363][ 13]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_Disk2F714B494E61FCB82196D8862D3FACE9.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.32.44:364][ 13]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.32.44:565][ 26]LogSavePackage: Save=5.92ms
+[2017.09.10-19.32.44:565][ 26]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_DiskF4110C9E45111CC6E1EBDFAE7F8C1D5A.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.32.44:566][ 26]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.32.44:754][ 43]LogSavePackage: Save=5.89ms
+[2017.09.10-19.32.44:754][ 43]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_Disk03C2437047DA0E8A1AB67C912FF1E95B.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.32.44:755][ 43]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.32.44:935][ 54]LogSavePackage: Save=32.92ms
+[2017.09.10-19.32.44:935][ 54]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Player_Disk0D59CF7B4D73E54F7FB321A114CC9BBD.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset'
+[2017.09.10-19.32.44:936][ 54]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/Universal_Props/Import/Player_Disk.uasset
+[2017.09.10-19.32.48:142][374]LogEditorViewport: Clicking on Actor (LMB): PickUp_Disk_Blueprint_C (VR_Disc)
+[2017.09.10-19.32.55:665][205]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_9:PersistentLevel.PickUp_Disk_Blueprint_C_3.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.09.10-19.33.13:760][808]BlueprintLog: New page: Compile PickUp_Disk_Blueprint
+[2017.09.10-19.33.13:771][808]PIE: Warning: Trying to simulate physics on ''/Game/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0.Challange_L_1_0:PersistentLevel.VR_Disc.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.09.10-19.33.13:789][808]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_9:PersistentLevel.PickUp_Disk_Blueprint_C_3.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.09.10-19.33.13:789][808]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_9:PersistentLevel.PickUp_Disk_Blueprint_C_3.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.09.10-19.33.14:108][808]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_9:PersistentLevel.PickUp_Disk_Blueprint_C_3.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.09.10-19.33.22:496][605]BlueprintLog: New page: Compile PickUp_Disk_Blueprint
+[2017.09.10-19.33.22:505][605]PIE: Warning: Trying to simulate physics on ''/Game/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0.Challange_L_1_0:PersistentLevel.VR_Disc.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.09.10-19.33.22:524][605]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_9:PersistentLevel.PickUp_Disk_Blueprint_C_3.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.09.10-19.33.22:524][605]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_9:PersistentLevel.PickUp_Disk_Blueprint_C_3.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.09.10-19.33.22:827][605]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_9:PersistentLevel.PickUp_Disk_Blueprint_C_3.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.09.10-19.33.23:367][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PickUp_Disk_Blueprint" FILE="../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Blueprints/PickUp_Disk_Blueprint.uasset" SILENT=true
+[2017.09.10-19.33.23:410][649]LogSavePackage: Save=28.63ms
+[2017.09.10-19.33.23:410][649]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/PickUp_Disk_Blueprint68E047B74327C6A95732AD8E364A096C.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Blueprints/PickUp_Disk_Blueprint.uasset'
+[2017.09.10-19.33.23:413][649]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Blueprints/PickUp_Disk_Blueprint.uasset
+[2017.09.10-19.33.26:327][944]LogTemp: Repeating last play command: VR Preview
+[2017.09.10-19.33.26:349][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.10-19.33.26:349][944]PIE: New page: PIE session: Challange_L_1_0 (Sep 10, 2017, 11:33:26 AM)
+[2017.09.10-19.33.26:349][944]LogPlayLevel: Creating play world package: /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0
+[2017.09.10-19.33.26:353][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003887s)
+[2017.09.10-19.33.26:354][944]LogAIModule: Creating AISystem for world Challange_L_1_0
+[2017.09.10-19.33.26:354][944]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2017.09.10-19.33.26:354][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0.Challange_L_1_0 to /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0.Challange_L_1_0 (0.004995s)
+[2017.09.10-19.33.26:385][944]LogInit: XAudio2 using 'REAL SPEAKERS!!!!!!!!!! (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.10-19.33.26:396][944]LogInit: FAudioDevice initialized.
+[2017.09.10-19.33.26:484][944]LogLoad: Game class is 'GameMode'
+[2017.09.10-19.33.26:487][944]LogWorld: Bringing World /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0.Challange_L_1_0 up for play (max tick rate 0) at 2017.09.10-15.33.26
+[2017.09.10-19.33.26:487][944]LogWorld: Bringing up level for play took: 0.001748
+[2017.09.10-19.33.26:488][944]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.10-19.33.26:488][944]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.10-19.33.26:488][944]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.09.10-19.33.26:489][944]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.09.10-19.33.26:510][944]LogOutputDevice: Warning: 
+
+Script Stack:
+BP_MotionController_C.SetupRoomScaleOutline
+BP_MotionController_C.ExecuteUbergraph_BP_MotionController
+BP_MotionController_C.ReceiveBeginPlay
+MotionControllerPawn_C.ExecuteUbergraph_MotionControllerPawn
+MotionControllerPawn_C.ReceiveBeginPlay
+
+[2017.09.10-19.33.27:299][944]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.788 s
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: === Handled ensure: ===
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: 
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 8]
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: Stack: 
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DA2B3606
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DA03C2D2
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DA054746
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D9FDE1A1
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D64574CB
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D6DBAE63
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D6DF1A74
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCC8EF44
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE4DF94
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE632F1
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE654D2
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE4E99E
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE654D2
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE4E99E
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE654D2
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCC8EF44
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE64865
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D653B217
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D76E57A7
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D64FDC0F
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D650ABAB
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D6536939
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D6517DE3
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D6C3BCB9
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D6570576
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCC8EF44
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE4DF94
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE632F1
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE8CF94
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE654D2
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE4E99E
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE654D2
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCC8EF44
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000DCE64865
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D653B217
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D76E57A7
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D64FDC0F
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D650ABAB
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D76CA4D1
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D6C460DC
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D6C62CA3
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D6C673A3
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D76B5C7E
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000D6C67B26
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D549A70C
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D54C50EE
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D54E0C34
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D4F4BDB8
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D57DCEE6
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor.exe!0x000000007B16534A
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor.exe!0x000000007B173970
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor.exe!0x000000007B1739EA
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor.exe!0x000000007B1802D9
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: UE4Editor.exe!0x000000007B181C47
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: KERNEL32.DLL!0x000000001BC58364
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: ntdll.dll!0x000000001BF57091
+[2017.09.10-19.33.27:299][944]LogOutputDevice: Error: 
+[2017.09.10-19.33.27:308][944]LogStats:                SubmitErrorReport -  0.000 s
