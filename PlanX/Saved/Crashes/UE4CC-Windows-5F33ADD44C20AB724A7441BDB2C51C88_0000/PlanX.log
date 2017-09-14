@@ -1,0 +1,474 @@
+﻿Log file open, 09/13/17 13:06:47
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: PlanX
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-665851983) SRandInit(-665851983).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.166727
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin Ansel
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: Q:/Unreal Engine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.13-17.06.47:978][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.13-17.06.47:978][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.13-17.06.48:008][  0]LogInit: Computer: DAWN
+[2017.09.13-17.06.48:008][  0]LogInit: User: RobertForbes
+[2017.09.13-17.06.48:008][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.13-17.06.48:008][  0]LogInit: High frequency timer resolution =3.417985 MHz
+[2017.09.13-17.06.48:009][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.13-17.06.48:009][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.13-17.06.48:009][  0]LogMemory: Process Physical Memory: 280.03 MB used, 280.03 MB peak
+[2017.09.13-17.06.48:009][  0]LogMemory: Process Virtual Memory: 286.65 MB used, 286.65 MB peak
+[2017.09.13-17.06.48:009][  0]LogMemory: Physical Memory: 5796.22 MB used,  2347.63 MB free, 8143.85 MB total
+[2017.09.13-17.06.48:009][  0]LogMemory: Virtual Memory: 680.32 MB used,  2347.63 MB free, 134217728.00 MB total
+[2017.09.13-17.06.48:141][  0]LogInit: Using OS detected language (en-US).
+[2017.09.13-17.06.48:141][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.13-17.06.48:146][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.13-17.06.49:088][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.13-17.06.49:821][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.09.13-17.06.49:821][  0]LogD3D11RHI:       4058/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.13-17.06.49:823][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.13-17.06.49:823][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.13-17.06.49:823][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.13-17.06.49:828][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.13-17.06.49:829][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.13-17.06.49:829][  0]LogWindows: EnumDisplayDevices:
+[2017.09.13-17.06.49:829][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.09.13-17.06.49:829][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.09.13-17.06.49:829][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.09.13-17.06.49:829][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.09.13-17.06.49:829][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.13-17.06.49:829][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.09.13-17.06.49:829][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.09.13-17.06.49:829][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.09.13-17.06.49:829][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.13-17.06.50:577][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.13-17.06.50:617][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.13-17.06.50:619][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (../../../../../Unreal Projects/Plan-X/PlanX/Intermediate/Shaders/WorkingDirectory/14936/).
+[2017.09.13-17.06.50:619][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Robert Forbes/AppData/Local/Temp/UnrealShaderWorkingDir/C464AE96470CBF51FAC322BC69D5BFD6/'.
+[2017.09.13-17.06.50:619][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.13-17.06.51:751][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.13-17.06.51:808][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.13-17.06.51:878][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.13-17.06.51:941][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.13-17.06.51:999][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.13-17.06.52:063][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.13-17.06.52:117][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.13-17.06.52:170][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.13-17.06.52:218][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.13-17.06.52:276][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.13-17.06.52:329][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.13-17.06.52:380][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.13-17.06.52:435][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.13-17.06.52:488][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.13-17.06.52:551][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.13-17.06.52:661][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.13-17.06.52:661][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.13-17.06.52:703][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.13-17.06.52:805][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.13-17.06.52:833][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.13-17.06.52:885][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.13-17.06.52:959][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.13-17.06.53:010][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.13-17.06.53:062][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.13-17.06.53:062][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.13-17.06.53:645][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.13-17.06.53:789][  0]LogDerivedDataCache: Loaded boot cache 0.14s 106MB C:/Users/Robert Forbes/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.13-17.06.53:789][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Robert Forbes/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.13-17.06.53:789][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Plan-X/PlanX/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.13-17.06.53:789][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.13-17.06.53:789][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/Plan-X/PlanX/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.13-17.06.53:789][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.13-17.06.53:819][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.13-17.06.53:832][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Robert Forbes/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.13-17.06.53:845][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.13-17.06.53:845][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.13-17.06.53:846][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.13-17.06.53:846][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.13-17.06.54:192][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2017.09.13-17.06.54:819][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.13-17.06.55:035][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.13-17.06.55:412][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.13-17.06.55:465][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.13-17.06.55:465][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.13-17.06.55:465][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.13-17.06.55:465][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.13-17.06.55:465][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.13-17.06.55:921][  0]LogNetVersion: PlanX , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4232075429)
+[2017.09.13-17.06.56:230][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.068618 seconds
+[2017.09.13-17.06.56:242][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.13-17.06.56:242][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.13-17.06.56:242][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.13-17.06.56:304][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.13-17.06.59:117][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.13-17.06.59:157][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.13-17.06.59:765][  0]SourceControl: Source control is disabled
+[2017.09.13-17.06.59:765][  0]SourceControl: Source control is disabled
+[2017.09.13-17.06.59:813][  0]SourceControl: Source control is disabled
+[2017.09.13-17.06.59:859][  0]SourceControl: Source control is disabled
+[2017.09.13-17.07.00:544][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.13-17.07.00:849][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2017.09.13-17.07.00:896][  0]LogOcInput: OculusInput pre-init called
+[2017.09.13-17.07.01:150][  0]LogEngine: Initializing Engine...
+[2017.09.13-17.07.03:714][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-21CE5F1D
+[2017.09.13-17.07.03:977][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.13-17.07.03:977][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.13-17.07.04:100][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.13-17.07.04:124][  0]LogInit: XAudio2 using 'REAL SPEAKERS!!!!!!!!!! (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.13-17.07.04:136][  0]LogInit: FAudioDevice initialized.
+[2017.09.13-17.07.04:255][  0]LogDerivedDataCache: Saved boot cache 0.12s 106MB C:/Users/Robert Forbes/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.13-17.07.04:271][  0]LogInit: Texture streaming: Enabled
+[2017.09.13-17.07.04:328][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.13-17.07.04:577][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.13-17.07.04:799][  0]LogInit: Transaction tracking system initialized
+[2017.09.13-17.07.05:183][  0]BlueprintLog: New page: Editor Load
+[2017.09.13-17.07.06:001][  0]LocalizationService: Localization service is disabled
+[2017.09.13-17.07.06:629][  0]LogConsoleResponse: Display: 
+[2017.09.13-17.07.06:937][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.13-17.07.06:937][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.13-17.07.06:937][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.13-17.07.07:065][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal Projects/Plan-X/PlanX/Content/' took 0.04s
+[2017.09.13-17.07.07:860][  0]SourceControl: Source control is disabled
+[2017.09.13-17.07.07:860][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.13-17.07.08:071][  0]LightingResults: New page: Lighting Build
+[2017.09.13-17.07.08:104][  0]MapCheck: New page: Map Check
+[2017.09.13-17.07.08:104][  0]LightingResults: New page: Lighting Build
+[2017.09.13-17.07.09:813][  0]LogAIModule: Creating AISystem for world Challange_L_1_0
+[2017.09.13-17.07.09:882][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.13-17.07.09:895][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.13-17.07.09:959][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.027ms to complete.
+[2017.09.13-17.07.09:959][  0]LogFileHelpers: Loading map 'Challange_L_1_0' took 2.099
+[2017.09.13-17.07.10:370][  0]LogCollectionManager: Loaded 0 collections in 0.001702 seconds
+[2017.09.13-17.07.10:546][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal Projects/Plan-X/PlanX/Saved/Collections/' took 0.01s
+[2017.09.13-17.07.10:547][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal Projects/Plan-X/PlanX/Content/Developers/RobertForbes/Collections/' took 0.01s
+[2017.09.13-17.07.10:547][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal Projects/Plan-X/PlanX/Content/Collections/' took 0.01s
+[2017.09.13-17.07.10:547][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.13-17.07.10:564][  0]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 2337 classes and 483 folders.
+[2017.09.13-17.07.10:692][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2017.09.13-17.07.11:940][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.09.13-17.07.12:034][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.09.13-17.07.12:158][  0]LogSlate: Took 0.000785 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.13-17.07.12:161][  0]LogSlate: Took 0.000398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.13-17.07.12:211][  0]LogSlate: Took 0.012774 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.13-17.07.12:490][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
+[2017.09.13-17.07.12:777][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.13-17.07.12:777][  0]LogLoad: (Engine Initialization) Total time: 27.35 seconds
+[2017.09.13-17.07.12:777][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.13-17.07.12:778][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.13-17.07.12:778][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.13-17.07.13:175][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.09.13-17.07.13:358][  0]LogSlate: Took 0.079351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.13-17.07.13:451][  1]LogFileCache: Retrieving MD5 hashes for directory 'Q:/Unreal Projects/Plan-X/PlanX/Content/' took 0.31s
+[2017.09.13-17.07.13:473][  1]LogAssetRegistry: Asset discovery search completed in 19.3025 seconds
+[2017.09.13-17.07.13:475][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.13-17.07.13:476][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2017.09.13-17.17.38:052][269]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.13-17.17.38:376][269]LogContentBrowser: Native class hierarchy updated for 'DestructibleMeshEditor' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.09.13-17.17.39:615][269]LogRenderer: Reallocating scene render targets to support 1208x924 Format 26 NumSamples 1 (Frame:1).
+[2017.09.13-17.19.15:532][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_Ceiling)
+[2017.09.13-17.19.32:597][286]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.13-17.19.44:604][322]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0' took 0.025
+[2017.09.13-17.19.44:754][322]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM] ([1] browsable assets)...
+[2017.09.13-17.19.44:790][322]OBJ SavePackage:     Rendered thumbnail for [DestructibleMesh /Game/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.Level_packet_Target_DM]
+[2017.09.13-17.19.44:790][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM]
+[2017.09.13-17.19.46:418][322]LogSavePackage: Save=177.48ms
+[2017.09.13-17.19.46:418][322]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Level_packet_Target_DM_Auto17B791200440196A234A174B970F0DFC0.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Autosaves/Game/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM_Auto1.uasset'
+[2017.09.13-17.19.46:442][322]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Saved/Autosaves/Game/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM_Auto1.uasset
+[2017.09.13-17.19.46:442][322]LogFileHelpers: Auto-saving content packages took 1.823
+[2017.09.13-17.19.46:443][322]LogSlate: Took 0.000380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.13-17.36.51:357][478]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0' took 0.015
+[2017.09.13-17.36.51:359][478]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM] ([1] browsable assets)...
+[2017.09.13-17.36.51:372][478]OBJ SavePackage:     Rendered thumbnail for [DestructibleMesh /Game/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.Level_packet_Target_DM]
+[2017.09.13-17.36.51:372][478]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM]
+[2017.09.13-17.36.51:459][478]LogSavePackage: Save=48.89ms
+[2017.09.13-17.36.51:459][478]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Level_packet_Target_DM_Auto227ACBEEA417F11C1CDAB9F86AA6DDC50.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Autosaves/Game/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM_Auto2.uasset'
+[2017.09.13-17.36.51:460][478]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Saved/Autosaves/Game/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM_Auto2.uasset
+[2017.09.13-17.36.51:460][478]LogFileHelpers: Auto-saving content packages took 0.102
+[2017.09.13-19.18.46:512][580]LogMaterial: Missing cached shader map for material M_SkyBox, compiling. 
+[2017.09.13-19.18.46:649][580]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2017.09.13-19.18.48:197][580]LogRenderer: Reallocating scene render targets to support 1432x924 Format 26 NumSamples 1 (Frame:1).
+[2017.09.13-19.21.02:792][855]LogDestructible: Warning: MainMesh Tris: 40
+[2017.09.13-19.21.02:907][855]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
+[2017.09.13-19.21.02:922][855]LogApexDestructibleAssetImport: Warning: Bones digested - 2  Depth of hierarchy - 2
+[2017.09.13-19.21.02:957][855]LogSkeletalMesh: Section 0: 26 vertices, 1 active bones
+[2017.09.13-19.21.02:962][855]LogSkeletalMesh: Section 0: Material=0, 40 triangles
+[2017.09.13-19.21.16:125][140]LogDestructible: Warning: MainMesh Tris: 40
+[2017.09.13-19.21.16:283][140]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
+[2017.09.13-19.21.16:284][140]LogApexDestructibleAssetImport: Warning: Bones digested - 27  Depth of hierarchy - 2
+[2017.09.13-19.21.16:299][140]LogSkeletalMesh: Section 0: 385 vertices, 21 active bones
+[2017.09.13-19.21.16:299][140]LogSkeletalMesh: Section 1: 1278 vertices, 25 active bones
+[2017.09.13-19.21.16:302][140]LogSkeletalMesh: Section 0: Material=0, 377 triangles
+[2017.09.13-19.21.16:302][140]LogSkeletalMesh: Section 1: Material=1, 794 triangles
+[2017.09.13-19.21.21:212][677]LogDestructible: Warning: MainMesh Tris: 40
+[2017.09.13-19.21.21:240][677]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
+[2017.09.13-19.21.21:241][677]LogApexDestructibleAssetImport: Warning: Bones digested - 27  Depth of hierarchy - 2
+[2017.09.13-19.21.21:255][677]LogSkeletalMesh: Section 0: 385 vertices, 21 active bones
+[2017.09.13-19.21.21:255][677]LogSkeletalMesh: Section 1: 1278 vertices, 25 active bones
+[2017.09.13-19.21.21:258][677]LogSkeletalMesh: Section 0: Material=0, 377 triangles
+[2017.09.13-19.21.21:258][677]LogSkeletalMesh: Section 1: Material=1, 794 triangles
+[2017.09.13-19.21.23:846][964]LogDestructible: Warning: MainMesh Tris: 40
+[2017.09.13-19.21.23:875][964]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
+[2017.09.13-19.21.23:875][964]LogApexDestructibleAssetImport: Warning: Bones digested - 27  Depth of hierarchy - 2
+[2017.09.13-19.21.23:889][964]LogSkeletalMesh: Section 0: 385 vertices, 21 active bones
+[2017.09.13-19.21.23:889][964]LogSkeletalMesh: Section 1: 1278 vertices, 25 active bones
+[2017.09.13-19.21.23:892][964]LogSkeletalMesh: Section 0: Material=0, 377 triangles
+[2017.09.13-19.21.23:892][964]LogSkeletalMesh: Section 1: Material=1, 794 triangles
+[2017.09.13-19.21.28:498][468]LogDestructible: Warning: MainMesh Tris: 40
+[2017.09.13-19.21.28:526][468]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
+[2017.09.13-19.21.28:526][468]LogApexDestructibleAssetImport: Warning: Bones digested - 27  Depth of hierarchy - 2
+[2017.09.13-19.21.28:540][468]LogSkeletalMesh: Section 0: 385 vertices, 21 active bones
+[2017.09.13-19.21.28:540][468]LogSkeletalMesh: Section 1: 1278 vertices, 25 active bones
+[2017.09.13-19.21.28:543][468]LogSkeletalMesh: Section 0: Material=0, 377 triangles
+[2017.09.13-19.21.28:543][468]LogSkeletalMesh: Section 1: Material=1, 794 triangles
+[2017.09.13-19.21.28:656][479]LogDestructible: Warning: MainMesh Tris: 40
+[2017.09.13-19.21.28:684][479]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
+[2017.09.13-19.21.28:685][479]LogApexDestructibleAssetImport: Warning: Bones digested - 27  Depth of hierarchy - 2
+[2017.09.13-19.21.28:697][479]LogSkeletalMesh: Section 0: 385 vertices, 21 active bones
+[2017.09.13-19.21.28:697][479]LogSkeletalMesh: Section 1: 1278 vertices, 25 active bones
+[2017.09.13-19.21.28:700][479]LogSkeletalMesh: Section 0: Material=0, 377 triangles
+[2017.09.13-19.21.28:701][479]LogSkeletalMesh: Section 1: Material=1, 794 triangles
+[2017.09.13-19.21.28:842][494]LogDestructible: Warning: MainMesh Tris: 40
+[2017.09.13-19.21.28:871][494]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
+[2017.09.13-19.21.28:871][494]LogApexDestructibleAssetImport: Warning: Bones digested - 27  Depth of hierarchy - 2
+[2017.09.13-19.21.28:885][494]LogSkeletalMesh: Section 0: 385 vertices, 21 active bones
+[2017.09.13-19.21.28:885][494]LogSkeletalMesh: Section 1: 1278 vertices, 25 active bones
+[2017.09.13-19.21.28:889][494]LogSkeletalMesh: Section 0: Material=0, 377 triangles
+[2017.09.13-19.21.28:889][494]LogSkeletalMesh: Section 1: Material=1, 794 triangles
+[2017.09.13-19.21.29:020][507]LogDestructible: Warning: MainMesh Tris: 40
+[2017.09.13-19.21.29:048][507]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
+[2017.09.13-19.21.29:048][507]LogApexDestructibleAssetImport: Warning: Bones digested - 27  Depth of hierarchy - 2
+[2017.09.13-19.21.29:059][507]LogSkeletalMesh: Section 0: 385 vertices, 21 active bones
+[2017.09.13-19.21.29:060][507]LogSkeletalMesh: Section 1: 1278 vertices, 25 active bones
+[2017.09.13-19.21.29:063][507]LogSkeletalMesh: Section 0: Material=0, 377 triangles
+[2017.09.13-19.21.29:063][507]LogSkeletalMesh: Section 1: Material=1, 794 triangles
+[2017.09.13-19.21.29:191][521]LogDestructible: Warning: MainMesh Tris: 40
+[2017.09.13-19.21.29:218][521]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
+[2017.09.13-19.21.29:218][521]LogApexDestructibleAssetImport: Warning: Bones digested - 27  Depth of hierarchy - 2
+[2017.09.13-19.21.29:231][521]LogSkeletalMesh: Section 0: 385 vertices, 21 active bones
+[2017.09.13-19.21.29:232][521]LogSkeletalMesh: Section 1: 1278 vertices, 25 active bones
+[2017.09.13-19.21.29:235][521]LogSkeletalMesh: Section 0: Material=0, 377 triangles
+[2017.09.13-19.21.29:235][521]LogSkeletalMesh: Section 1: Material=1, 794 triangles
+[2017.09.13-19.21.29:335][531]LogDestructible: Warning: MainMesh Tris: 40
+[2017.09.13-19.21.29:364][531]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
+[2017.09.13-19.21.29:364][531]LogApexDestructibleAssetImport: Warning: Bones digested - 27  Depth of hierarchy - 2
+[2017.09.13-19.21.29:377][531]LogSkeletalMesh: Section 0: 385 vertices, 21 active bones
+[2017.09.13-19.21.29:377][531]LogSkeletalMesh: Section 1: 1278 vertices, 25 active bones
+[2017.09.13-19.21.29:379][531]LogSkeletalMesh: Section 0: Material=0, 377 triangles
+[2017.09.13-19.21.29:379][531]LogSkeletalMesh: Section 1: Material=1, 794 triangles
+[2017.09.13-19.21.29:472][540]LogDestructible: Warning: MainMesh Tris: 40
+[2017.09.13-19.21.29:501][540]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
+[2017.09.13-19.21.29:501][540]LogApexDestructibleAssetImport: Warning: Bones digested - 27  Depth of hierarchy - 2
+[2017.09.13-19.21.29:513][540]LogSkeletalMesh: Section 0: 385 vertices, 21 active bones
+[2017.09.13-19.21.29:514][540]LogSkeletalMesh: Section 1: 1278 vertices, 25 active bones
+[2017.09.13-19.21.29:516][540]LogSkeletalMesh: Section 0: Material=0, 377 triangles
+[2017.09.13-19.21.29:516][540]LogSkeletalMesh: Section 1: Material=1, 794 triangles
+[2017.09.13-19.22.48:674][641]LogSavePackage: Save=41.07ms
+[2017.09.13-19.22.48:674][641]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Level_packet_Target_DM43FA290D486FDB4A8E5EFFB18431EF37.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset'
+[2017.09.13-19.22.48:677][641]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset
+[2017.09.13-19.22.49:180][690]LogSavePackage: Save=18.55ms
+[2017.09.13-19.22.49:180][690]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Level_packet_Target_DM93F966E84896212D3F6E178487C8416E.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset'
+[2017.09.13-19.22.49:182][690]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset
+[2017.09.13-19.22.49:329][701]LogSavePackage: Save=18.43ms
+[2017.09.13-19.22.49:329][701]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Level_packet_Target_DMB317AE764BD45486F249F2856AA83122.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset'
+[2017.09.13-19.22.49:330][701]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset
+[2017.09.13-19.22.49:527][716]LogSavePackage: Save=40.69ms
+[2017.09.13-19.22.49:527][716]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Level_packet_Target_DM98BEB1B440A601B9577506A9E5D64148.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset'
+[2017.09.13-19.22.49:528][716]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset
+[2017.09.13-19.22.49:684][728]LogSavePackage: Save=18.16ms
+[2017.09.13-19.22.49:684][728]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Level_packet_Target_DM2A91805E4B48D69ABAC797A888C6C792.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset'
+[2017.09.13-19.22.49:686][728]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset
+[2017.09.13-19.22.49:868][744]LogSavePackage: Save=19.00ms
+[2017.09.13-19.22.49:868][744]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Level_packet_Target_DMAC5EA07841A491EE10815FA761894C8F.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset'
+[2017.09.13-19.22.49:869][744]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset
+[2017.09.13-19.22.50:121][767]LogSavePackage: Save=17.49ms
+[2017.09.13-19.22.50:121][767]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Level_packet_Target_DM49DC33314ABE4605C74DA4BC90663899.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset'
+[2017.09.13-19.22.50:122][767]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Sorted_prop_data/CL1/Props/Level_packet_Target_DM.uasset
+[2017.09.13-19.23.29:749][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.13-19.23.29:934][255]PIE: New page: PIE session: Challange_L_1_0 (Sep 13, 2017, 11:23:29 AM)
+[2017.09.13-19.23.29:949][255]LogPlayLevel: Creating play world package: /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0
+[2017.09.13-19.23.29:979][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029369s)
+[2017.09.13-19.23.29:979][255]LogAIModule: Creating AISystem for world Challange_L_1_0
+[2017.09.13-19.23.29:980][255]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2017.09.13-19.23.29:988][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0.Challange_L_1_0 to /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0.Challange_L_1_0 (0.038824s)
+[2017.09.13-19.23.30:041][255]LogInit: XAudio2 using 'REAL SPEAKERS!!!!!!!!!! (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.13-19.23.30:051][255]LogInit: FAudioDevice initialized.
+[2017.09.13-19.23.30:229][255]LogLoad: Game class is 'GameMode'
+[2017.09.13-19.23.30:405][255]LogWorld: Bringing World /Game/Assets/Mapt_data/Challenge_Levels/UEDPIE_0_Challange_L_1_0.Challange_L_1_0 up for play (max tick rate 0) at 2017.09.13-15.23.30
+[2017.09.13-19.23.30:463][255]LogWorld: Bringing up level for play took: 0.116649
+[2017.09.13-19.23.30:707][255]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2017.09.13-19.23.30:719][255]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.13-19.23.30:719][255]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.13-19.23.30:719][255]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.09.13-19.23.30:836][255]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.09.13-19.23.30:843][255]LogOutputDevice: Warning: 
+
+Script Stack:
+BP_MotionController_C.SetupRoomScaleOutline
+BP_MotionController_C.ExecuteUbergraph_BP_MotionController
+BP_MotionController_C.ReceiveBeginPlay
+MotionControllerPawn_C.ExecuteUbergraph_MotionControllerPawn
+MotionControllerPawn_C.ReceiveBeginPlay
+
+[2017.09.13-19.23.31:440][255]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.597 s
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: === Handled ensure: ===
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: 
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 8]
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: Stack: 
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000013513606
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000001329C2D2
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000132B4746
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000001323E1A1
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E1274CB
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001EA8AE63
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001EAC1A74
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CDFEF44
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFBDF94
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFD32F1
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFD54D2
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFBE99E
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFD54D2
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFBE99E
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFD54D2
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CDFEF44
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFD4865
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E20B217
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001F3B57A7
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E1CDC0F
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E1DABAB
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E206939
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E1E7DE3
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E90BCB9
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E240576
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CDFEF44
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFBDF94
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFD32F1
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFFCF94
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFD54D2
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFBE99E
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFD54D2
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CDFEF44
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000005CFD4865
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E20B217
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001F3B57A7
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E1CDC0F
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E1DABAB
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001F39A4D1
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E9160DC
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E932CA3
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E9373A3
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001F385C7E
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000001E937B26
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000001D16A70C
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000001D1950EE
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000001D1B0C34
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000001CC1BDB8
+[2017.09.13-19.23.31:440][255]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000001D4ACEE6
+[2017.09.13-19.23.31:441][255]LogOutputDevice: Error: UE4Editor.exe!0x00000000E86D534A
+[2017.09.13-19.23.31:441][255]LogOutputDevice: Error: UE4Editor.exe!0x00000000E86E3970
+[2017.09.13-19.23.31:441][255]LogOutputDevice: Error: UE4Editor.exe!0x00000000E86E39EA
+[2017.09.13-19.23.31:441][255]LogOutputDevice: Error: UE4Editor.exe!0x00000000E86F02D9
+[2017.09.13-19.23.31:441][255]LogOutputDevice: Error: UE4Editor.exe!0x00000000E86F1C47
+[2017.09.13-19.23.31:441][255]LogOutputDevice: Error: KERNEL32.DLL!0x0000000065DA8364
+[2017.09.13-19.23.31:441][255]LogOutputDevice: Error: ntdll.dll!0x0000000068897091
+[2017.09.13-19.23.31:441][255]LogOutputDevice: Error: 
+[2017.09.13-19.23.31:442][255]LogStats:                SubmitErrorReport -  0.000 s
