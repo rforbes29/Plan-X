@@ -1,0 +1,756 @@
+﻿Log file open, 10/09/17 20:42:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PlanX
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(9581535) SRandInit(9581536).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.175101
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin Ansel
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: Q:/Unreal Engine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.10-00.42.18:760][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.10-00.42.18:760][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.10-00.42.18:791][  0]LogInit: Computer: DAWN
+[2017.10.10-00.42.18:791][  0]LogInit: User: RobertForbes
+[2017.10.10-00.42.18:791][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.10-00.42.18:791][  0]LogInit: High frequency timer resolution =3.417984 MHz
+[2017.10.10-00.42.18:791][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.10.10-00.42.18:791][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.10-00.42.18:791][  0]LogMemory: Process Physical Memory: 279.91 MB used, 279.91 MB peak
+[2017.10.10-00.42.18:791][  0]LogMemory: Process Virtual Memory: 290.16 MB used, 290.16 MB peak
+[2017.10.10-00.42.18:791][  0]LogMemory: Physical Memory: 6929.32 MB used,  1214.54 MB free, 8143.85 MB total
+[2017.10.10-00.42.18:791][  0]LogMemory: Virtual Memory: 684.19 MB used,  1214.54 MB free, 134217728.00 MB total
+[2017.10.10-00.42.18:923][  0]LogInit: Using OS detected language (en-US).
+[2017.10.10-00.42.18:923][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.10-00.42.18:928][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.10-00.42.19:658][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.10-00.42.20:332][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.10.10-00.42.20:332][  0]LogD3D11RHI:       4058/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.10-00.42.20:334][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.10-00.42.20:334][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.10-00.42.20:334][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.10-00.42.20:341][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.10-00.42.20:341][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.10-00.42.20:341][  0]LogWindows: EnumDisplayDevices:
+[2017.10.10-00.42.20:341][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.10.10-00.42.20:341][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.10.10-00.42.20:341][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.10-00.42.20:341][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.10-00.42.20:341][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.10-00.42.20:341][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.10.10-00.42.20:341][  0]LogD3D11RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
+[2017.10.10-00.42.20:341][  0]LogD3D11RHI:      Driver Date: 9-16-2017
+[2017.10.10-00.42.20:341][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.10-00.42.20:974][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.10-00.42.21:003][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.10-00.42.21:006][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (../../../../../Unreal Projects/Plan-X/PlanX/Intermediate/Shaders/WorkingDirectory/10484/).
+[2017.10.10-00.42.21:006][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Robert Forbes/AppData/Local/Temp/UnrealShaderWorkingDir/F862F8BA4276B82D06274B9611E3F2EC/'.
+[2017.10.10-00.42.21:006][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.10-00.42.22:006][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.10-00.42.22:060][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.10-00.42.22:107][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.10-00.42.22:211][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.10-00.42.22:262][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.10-00.42.22:310][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.10-00.42.22:352][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.10-00.42.22:394][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.10-00.42.22:430][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.10-00.42.22:480][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.10-00.42.22:524][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.10-00.42.22:570][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.10-00.42.22:613][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.10-00.42.22:660][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.10-00.42.22:708][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.10-00.42.22:800][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.10-00.42.22:800][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.10-00.42.22:835][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.10-00.42.22:916][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.10-00.42.22:939][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.10-00.42.22:986][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.10-00.42.23:034][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.10-00.42.23:080][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.10-00.42.23:127][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.10-00.42.23:127][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.10-00.42.23:498][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.10-00.42.23:611][  0]LogDerivedDataCache: Loaded boot cache 0.11s 106MB C:/Users/Robert Forbes/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.10-00.42.23:612][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Robert Forbes/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.10-00.42.23:612][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Plan-X/PlanX/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.10-00.42.23:612][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.10-00.42.23:612][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/Plan-X/PlanX/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.10-00.42.23:612][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.10-00.42.23:635][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.10-00.42.23:647][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Robert Forbes/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.10-00.42.23:672][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.10-00.42.23:672][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.10-00.42.23:673][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.10-00.42.23:673][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.10-00.42.24:015][  0]LogAssetRegistry: FAssetRegistry took 0.0359 seconds to start up
+[2017.10.10-00.42.24:138][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.10-00.42.24:312][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.10-00.42.24:636][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.10-00.42.24:670][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.10-00.42.24:670][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.10-00.42.24:670][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.10-00.42.24:670][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.10-00.42.24:670][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.10-00.42.25:102][  0]LogNetVersion: PlanX , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4232075429)
+[2017.10.10-00.42.25:318][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.039368 seconds
+[2017.10.10-00.42.25:324][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.10-00.42.25:324][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.10-00.42.25:324][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.10-00.42.25:369][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.10-00.42.28:480][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.10-00.42.28:543][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.10-00.42.29:311][  0]SourceControl: Source control is disabled
+[2017.10.10-00.42.32:324][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.10-00.42.32:897][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2017.10.10-00.42.32:969][  0]LogOcInput: OculusInput pre-init called
+[2017.10.10-00.42.33:517][  0]LogEngine: Initializing Engine...
+[2017.10.10-00.42.35:087][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-21CE5F1D
+[2017.10.10-00.42.36:024][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.10-00.42.36:024][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.10-00.42.36:161][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.10-00.42.36:181][  0]LogInit: XAudio2 using 'REAL SPEAKERS!!!!!!!!!! (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.10-00.42.36:194][  0]LogInit: FAudioDevice initialized.
+[2017.10.10-00.42.36:315][  0]LogDerivedDataCache: Saved boot cache 0.12s 106MB C:/Users/Robert Forbes/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.10-00.42.36:328][  0]LogInit: Texture streaming: Enabled
+[2017.10.10-00.42.36:449][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.10-00.42.36:941][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.10-00.42.37:284][  0]LogInit: Transaction tracking system initialized
+[2017.10.10-00.42.37:853][  0]BlueprintLog: New page: Editor Load
+[2017.10.10-00.42.39:077][  0]LocalizationService: Localization service is disabled
+[2017.10.10-00.42.40:120][  0]LogConsoleResponse: Display: 
+[2017.10.10-00.42.41:790][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.10-00.42.41:790][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.10-00.42.41:790][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.10-00.42.42:011][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal Projects/Plan-X/PlanX/Content/' took 0.07s
+[2017.10.10-00.42.44:168][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Plan-X/PlanX/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.10-00.42.44:168][  0]LightingResults: New page: Lighting Build
+[2017.10.10-00.42.44:205][  0]MapCheck: New page: Map Check
+[2017.10.10-00.42.44:205][  0]LightingResults: New page: Lighting Build
+[2017.10.10-00.42.47:491][  0]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.10.10-00.42.47:696][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.10-00.42.47:734][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.10-00.42.47:793][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.178ms to complete.
+[2017.10.10-00.42.47:793][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 3.625
+[2017.10.10-00.42.48:790][  0]LogCollectionManager: Loaded 0 collections in 0.001490 seconds
+[2017.10.10-00.42.49:049][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal Projects/Plan-X/PlanX/Saved/Collections/' took 0.01s
+[2017.10.10-00.42.49:049][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal Projects/Plan-X/PlanX/Content/Developers/RobertForbes/Collections/' took 0.01s
+[2017.10.10-00.42.49:049][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal Projects/Plan-X/PlanX/Content/Collections/' took 0.01s
+[2017.10.10-00.42.49:049][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.10-00.42.49:058][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2337 classes and 483 folders.
+[2017.10.10-00.42.49:213][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.10-00.42.50:465][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.10-00.42.50:596][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.10-00.42.51:457][  0]LogSlate: Took 0.016224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.10-00.42.51:480][  0]LogSlate: Took 0.013220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.10-00.42.51:566][  0]LogSlate: Took 0.018399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.10-00.42.52:040][  0]LogRenderer: Reallocating scene render targets to support 1208x536 Format 26 NumSamples 1 (Frame:1).
+[2017.10.10-00.42.52:781][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.10-00.42.52:781][  0]LogLoad: (Engine Initialization) Total time: 35.66 seconds
+[2017.10.10-00.42.52:781][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.10-00.42.52:781][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.10-00.42.52:781][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.10-00.42.53:265][  0]SourceControl: On branch master
+[2017.10.10-00.42.53:265][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.10.10-00.42.53:265][  0]SourceControl: Changes not staged for commit:
+[2017.10.10-00.42.53:265][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.10.10-00.42.53:265][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.10.10-00.42.53:265][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L2/Initial_Fl_L2_CMR.umap
+[2017.10.10-00.42.53:265][  0]SourceControl: 	modified:   PlanX/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	modified:   PlanX/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2017.10.10-00.42.53:265][  0]SourceControl: 	modified:   PlanX/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	modified:   PlanX/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.10.10-00.42.53:265][  0]SourceControl: 	modified:   PlanX/Intermediate/CachedAssetRegistry.bin
+[2017.10.10-00.42.53:265][  0]SourceControl: 	modified:   PlanX/Saved/AutoScreenshot.png
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-10-04-00-33-36.umap
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-10-04-00-53-52.umap
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-10-04-01-02-54.umap
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-10-04-01-20-28.umap
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-10-04-01-26-14.umap
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-10-04-00-33-36.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-10-04-01-02-54.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-10-04-01-26-14.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-10-04-00-33-20.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-10-04-00-38-20.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-10-04-00-46-49.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-10-04-00-53-26.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-10-04-01-00-36.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-10-04-01-07-00.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-10-04-01-19-26.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-10-04-01-24-39.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-10-04-11-14-23.uasset
+[2017.10.10-00.42.53:265][  0]SourceControl: 	modified:   PlanX/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.10.10-00.42.53:265][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.04-15.35.59.log
+[2017.10.10-00.42.53:266][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.06-00.58.48.log
+[2017.10.10-00.42.53:266][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.06-01.02.55.log
+[2017.10.10-00.42.53:266][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.06-01.12.29.log
+[2017.10.10-00.42.53:266][  0]SourceControl: 	modified:   PlanX/Saved/Logs/PlanX.log
+[2017.10.10-00.42.53:266][  0]SourceControl: 	modified:   PlanX/Saved/Logs/PlanX_2.log
+[2017.10.10-00.42.53:266][  0]SourceControl: Untracked files:
+[2017.10.10-00.42.53:266][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-10-07-11-13-01.umap
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-10-09-20-40-26.umap
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_2017-10-07-11-24-49.umap
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_2017-10-07-11-33-59.umap
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_2017-10-09-11-02-48.umap
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_2017-10-09-20-35-11.umap
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-10-07-11-24-49.uasset
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-10-07-11-33-59.uasset
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-10-09-11-02-49.uasset
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-10-09-20-35-11.uasset
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerPawn_2017-10-07-11-24-29.uasset
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerPawn_2017-10-07-11-33-12.uasset
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerPawn_2017-10-09-20-36-03.uasset
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Config/WorldState/988875376.json
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-EE1E721C4F48446C8868B0A473EC258B_0000/
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-EE1E721C4F48446C8868B0A473EC258B_0001/
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.10.09-11.02.14.log
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.10.09-20.34.36.log
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.10.09-20.42.18.log
+[2017.10.10-00.42.53:266][  0]SourceControl: 	PlanX/Saved/Logs/PlanX_2-backup-2017.10.07-11.08.33.log
+[2017.10.10-00.42.53:266][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.10.10-00.42.53:266][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.10.10-00.42.53:510][  0]LogRenderer: Reallocating scene render targets to support 1208x552 Format 26 NumSamples 1 (Frame:2).
+[2017.10.10-00.42.53:510][  0]LogSlate: Took 0.021228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.10-00.42.53:537][  1]LogFileCache: Retrieving MD5 hashes for directory 'Q:/Unreal Projects/Plan-X/PlanX/Content/' took 0.39s
+[2017.10.10-00.42.53:564][  1]LogAssetRegistry: Asset discovery search completed in 29.5710 seconds
+[2017.10.10-00.42.53:566][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.10-00.42.53:566][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2017.10.10-00.43.05:929][484]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.10-00.43.06:782][484]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.10-00.43.06:865][484]LogAIModule: Creating AISystem for world Initial_Fl_L2_CMR
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:865][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:866][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:867][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:957][484]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L2/Initial_Fl_L2_CMR.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.10-00.43.06:957][484]LightingResults: New page: Lighting Build
+[2017.10.10-00.43.06:958][484]LoadErrors: New page: Loading map: Initial_Fl_L2_CMR.umap
+[2017.10.10-00.43.06:969][484]MapCheck: New page: Map Check
+[2017.10.10-00.43.06:969][484]LightingResults: New page: Lighting Build
+[2017.10.10-00.43.06:979][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:979][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:979][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:979][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:979][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:979][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:979][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:979][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:979][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:979][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:979][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:979][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:980][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.06:981][484]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.07:093][484]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.10-00.43.07:165][484]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.10-00.43.07:241][484]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.435ms to complete.
+[2017.10.10-00.43.07:242][484]LogFileHelpers: Loading map 'Initial_Fl_L2_CMR' took 0.286
+[2017.10.10-00.43.15:241][342]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.10.10-00.43.16:706][342]LogSlate: Took 0.014850 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.10-00.43.18:037][343]LogSlate: Took 0.015477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.10-00.43.22:668][600]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.10.10-00.43.24:794][613]LogSavePackage: Save=708.70ms
+[2017.10.10-00.43.24:794][613]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/MotionControllerPawn558678A44D64EC999CF076AB0C65FC96.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.10.10-00.43.24:796][613]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.10.10-00.43.27:617][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.10-00.43.27:685][759]PIE: New page: PIE session: Initial_Fl_L2_CMR (Oct 9, 2017, 4:43:27 PM)
+[2017.10.10-00.43.27:706][759]LogPlayLevel: Creating play world package: /Game/Assets/Mapt_data/F1_L2/UEDPIE_0_Initial_Fl_L2_CMR
+[2017.10.10-00.43.27:759][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053084s)
+[2017.10.10-00.43.27:760][759]LogAIModule: Creating AISystem for world Initial_Fl_L2_CMR
+[2017.10.10-00.43.27:760][759]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2017.10.10-00.43.27:768][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets/Mapt_data/F1_L2/Initial_Fl_L2_CMR.Initial_Fl_L2_CMR to /Game/Assets/Mapt_data/F1_L2/UEDPIE_0_Initial_Fl_L2_CMR.Initial_Fl_L2_CMR (0.069750s)
+[2017.10.10-00.43.27:809][759]LogInit: XAudio2 using 'REAL SPEAKERS!!!!!!!!!! (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.10-00.43.27:819][759]LogInit: FAudioDevice initialized.
+[2017.10.10-00.43.28:017][759]LogLoad: Game class is 'GameMode'
+[2017.10.10-00.43.28:165][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:166][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:167][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:168][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:168][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:168][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:168][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:168][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:168][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:168][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:168][759]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.43.28:169][759]PIE: Warning: Invalid Simulate Options: Body (MotionControllerPawn_1298.CameraCollision) is set to simulate physics but Collision Enabled is incompatible
+[2017.10.10-00.43.28:169][759]PIE: Warning: Invalid Simulate Options: Body (MotionControllerPawn_1298.CameraCollision) is set to simulate physics but Collision Enabled is incompatible
+[2017.10.10-00.43.28:169][759]LogWorld: Bringing World /Game/Assets/Mapt_data/F1_L2/UEDPIE_0_Initial_Fl_L2_CMR.Initial_Fl_L2_CMR up for play (max tick rate 0) at 2017.10.09-20.43.28
+[2017.10.10-00.43.28:282][759]LogWorld: Bringing up level for play took: 0.117238
+[2017.10.10-00.43.28:451][759]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.10.10-00.43.28:466][759]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.10-00.43.28:466][759]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.10-00.43.28:467][759]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.10-00.43.28:681][759]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.10-00.43.28:735][759]PIE: Play in editor start time for /Game/Assets/Mapt_data/F1_L2/UEDPIE_0_Initial_Fl_L2_CMR 0.57
+[2017.10.10-00.43.28:916][759]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2017.10.10-00.43.29:005][760]LogRenderer: Reallocating scene render targets to support 3024x1680 Format 26 NumSamples 1 (Frame:1).
+[2017.10.10-00.43.33:484][ 76]LogSteamVRController: Controller role for device 2 is 0 (invalid=0, left=1, right=2).
+[2017.10.10-00.43.33:484][ 76]LogSteamVRController: Warning: Controller device 2 has no role set.  There is no 'right' controller according to steamvr, so we are pickign that.
+[2017.10.10-00.43.34:143][135]LogSteamVRController: Controller role for device 3 is 0 (invalid=0, left=1, right=2).
+[2017.10.10-00.43.34:144][135]LogSteamVRController: Putting controller 3 on the left hand because there is already a controller for the right.
+[2017.10.10-00.45.21:145][ 77]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.10.10-00.45.23:093][124]LogSavePackage: Save=628.65ms
+[2017.10.10-00.45.23:093][124]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/MotionControllerPawnB9FF7F0B424B216B12A07296C24FC79D.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.10.10-00.45.23:097][124]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.10.10-00.45.25:198][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.10-00.45.25:198][262]PIE: New page: PIE session: Initial_Fl_L2_CMR (Oct 9, 2017, 4:45:25 PM)
+[2017.10.10-00.45.25:198][262]LogPlayLevel: Creating play world package: /Game/Assets/Mapt_data/F1_L2/UEDPIE_0_Initial_Fl_L2_CMR
+[2017.10.10-00.45.25:211][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012474s)
+[2017.10.10-00.45.25:211][262]LogAIModule: Creating AISystem for world Initial_Fl_L2_CMR
+[2017.10.10-00.45.25:211][262]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2017.10.10-00.45.25:212][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets/Mapt_data/F1_L2/Initial_Fl_L2_CMR.Initial_Fl_L2_CMR to /Game/Assets/Mapt_data/F1_L2/UEDPIE_0_Initial_Fl_L2_CMR.Initial_Fl_L2_CMR (0.013329s)
+[2017.10.10-00.45.25:238][262]LogInit: XAudio2 using 'REAL SPEAKERS!!!!!!!!!! (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.10-00.45.25:248][262]LogInit: FAudioDevice initialized.
+[2017.10.10-00.45.25:336][262]LogLoad: Game class is 'GameMode'
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:337][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:338][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:339][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:339][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:339][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:339][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:339][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:339][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:339][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:339][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:339][262]LogModelComponent: Warning: Material M_Dwarf_Star requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.10.10-00.45.25:340][262]PIE: Warning: Invalid Simulate Options: Body (MotionControllerPawn_1298.CameraCollision) is set to simulate physics but Collision Enabled is incompatible
+[2017.10.10-00.45.25:340][262]PIE: Warning: Invalid Simulate Options: Body (MotionControllerPawn_1298.CameraCollision) is set to simulate physics but Collision Enabled is incompatible
+[2017.10.10-00.45.25:340][262]LogWorld: Bringing World /Game/Assets/Mapt_data/F1_L2/UEDPIE_0_Initial_Fl_L2_CMR.Initial_Fl_L2_CMR up for play (max tick rate 0) at 2017.10.09-20.45.25
+[2017.10.10-00.45.25:341][262]LogWorld: Bringing up level for play took: 0.004092
+[2017.10.10-00.45.25:341][262]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.10-00.45.25:341][262]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.10-00.45.25:341][262]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.10-00.45.25:343][262]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.10.10-00.45.25:358][262]LogOutputDevice: Warning: 
+
+Script Stack:
+BP_MotionController_C.SetupRoomScaleOutline
+BP_MotionController_C.ExecuteUbergraph_BP_MotionController
+BP_MotionController_C.ReceiveBeginPlay
+MotionControllerPawn_C.ExecuteUbergraph_MotionControllerPawn
+MotionControllerPawn_C.Initalize VR
+MotionControllerPawn_C.ExecuteUbergraph_MotionControllerPawn
+MotionControllerPawn_C.ReceiveBeginPlay
+
+[2017.10.10-00.45.26:047][262]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.689 s
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: === Handled ensure: ===
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: 
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 8]
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: Stack: 
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007B133E36
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007AEBC2D2
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007AED4746
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007AE5E1A1
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006EBD74EB
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006F52ABD3
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006F5606C4
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D0FE944
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2BDDA4
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2D3101
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2D52E2
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2BE7AE
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2D52E2
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2BE7AE
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2D52E2
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D0FE944
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2D4675
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006ECBB247
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006FE65B47
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006EC7DC2F
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006EC8ABCB
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006ECB6959
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006EC97E03
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006F3BBE89
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006ECF05B6
+[2017.10.10-00.45.26:047][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D0FE944
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2BDDA4
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2D3101
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2FCDA4
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2D52E2
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2BE7AE
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2D52E2
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2BE7AE
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2D52E2
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2BE7AE
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2D52E2
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D0FE944
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007D2D4675
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006ECBB247
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006FE65B47
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006EC7DC2F
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006EC8ABCB
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006FE4A871
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006F3C62AC
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006F3E2E73
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006F3E7573
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006FE3601E
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000006F3E7CF6
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000006DC1AE6C
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000006DC4584E
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000006DC61394
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000006D6CBDF8
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000006DF5D646
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor.exe!0x00000000B0AE534A
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor.exe!0x00000000B0AF3970
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor.exe!0x00000000B0AF39EA
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor.exe!0x00000000B0B002D9
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: UE4Editor.exe!0x00000000B0B01C47
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: KERNEL32.DLL!0x00000000C0922774
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: ntdll.dll!0x00000000C1030D51
+[2017.10.10-00.45.26:048][262]LogOutputDevice: Error: 
+[2017.10.10-00.45.26:055][262]LogStats:                SubmitErrorReport -  0.000 s
