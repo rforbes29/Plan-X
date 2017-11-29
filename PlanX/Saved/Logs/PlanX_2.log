@@ -1,4 +1,4 @@
-﻿Log file open, 11/07/17 01:28:20
+﻿Log file open, 11/28/17 01:19:20
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PlanX
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1916194162) SRandInit(-1916194162).
+LogInit: Display: RandInit(1672722666) SRandInit(1672722666).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.166856
+LogStats: Stats thread started at 0.169963
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin LightPropagationVolume
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
@@ -113,977 +113,723 @@ LogInit: Base directory: E:/Unreal Engine/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.07-09.28.21:876][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.07-09.28.21:876][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.07-09.28.21:949][  0]LogInit: Computer: DESKTOP-EEVB141
-[2017.11.07-09.28.21:950][  0]LogInit: User: Robbi
-[2017.11.07-09.28.21:950][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.11.07-09.28.21:950][  0]LogInit: High frequency timer resolution =3.417980 MHz
-[2017.11.07-09.28.21:950][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2017.11.07-09.28.21:950][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.07-09.28.21:950][  0]LogMemory: Process Physical Memory: 278.74 MB used, 278.74 MB peak
-[2017.11.07-09.28.21:950][  0]LogMemory: Process Virtual Memory: 290.06 MB used, 290.06 MB peak
-[2017.11.07-09.28.21:950][  0]LogMemory: Physical Memory: 5582.55 MB used,  2561.32 MB free, 8143.87 MB total
-[2017.11.07-09.28.21:950][  0]LogMemory: Virtual Memory: 683.89 MB used,  2561.32 MB free, 134217728.00 MB total
-[2017.11.07-09.28.22:476][  0]LogInit: Using OS detected language (en-US).
-[2017.11.07-09.28.22:476][  0]LogInit: Using OS detected locale (en-US).
-[2017.11.07-09.28.22:558][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.07-09.28.31:017][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.07-09.28.31:090][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2017.11.07-09.28.31:090][  0]LogD3D11RHI:       4058/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.11.07-09.28.31:111][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.07-09.28.31:111][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.07-09.28.31:111][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.07-09.28.31:117][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.07-09.28.31:117][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.07-09.28.31:117][  0]LogWindows: EnumDisplayDevices:
-[2017.11.07-09.28.31:118][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2017.11.07-09.28.31:118][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2017.11.07-09.28.31:118][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.11.07-09.28.31:118][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.11.07-09.28.31:118][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.11.07-09.28.31:118][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2017.11.07-09.28.31:118][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
-[2017.11.07-09.28.31:118][  0]LogD3D11RHI:      Driver Date: 10-27-2017
-[2017.11.07-09.28.31:118][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.07-09.28.31:144][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.07-09.28.31:156][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.11.07-09.28.31:159][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../Unreal Projects/Plan-X/PlanX/Intermediate/Shaders/WorkingDirectory/1984/).
-[2017.11.07-09.28.31:159][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Robbi/AppData/Local/Temp/UnrealShaderWorkingDir/5A24D0264D1B8B0FCC3F58B9B800542D/'.
-[2017.11.07-09.28.31:159][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.07-09.28.36:953][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.07-09.28.37:023][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.07-09.28.37:103][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.07-09.28.37:170][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.07-09.28.37:308][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.07-09.28.37:392][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.07-09.28.37:468][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.07-09.28.37:539][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.07-09.28.37:621][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.07-09.28.37:760][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.07-09.28.37:862][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.07-09.28.37:969][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.07-09.28.38:087][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.07-09.28.38:177][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.07-09.28.38:268][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.07-09.28.38:493][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.07-09.28.38:493][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.07-09.28.38:542][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.07-09.28.38:743][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.07-09.28.38:813][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.07-09.28.38:930][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.07-09.28.38:997][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.07-09.28.39:103][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.07-09.28.39:202][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.07-09.28.39:202][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.07-09.28.40:791][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.07-09.28.41:301][  0]LogDerivedDataCache: Loaded boot cache 0.51s 106MB C:/Users/Robbi/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.07-09.28.41:301][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Robbi/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.07-09.28.41:301][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Plan-X/PlanX/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.07-09.28.41:301][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.07-09.28.41:301][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/Plan-X/PlanX/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.07-09.28.41:301][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.07-09.28.41:320][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.07-09.28.41:332][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Robbi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.07-09.28.41:348][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.07-09.28.41:348][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.07-09.28.41:478][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.07-09.28.41:478][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.07-09.28.49:975][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
-[2017.11.07-09.28.50:144][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.07-09.28.51:127][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.07-09.28.52:079][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.07-09.28.52:189][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.07-09.28.52:189][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.07-09.28.52:189][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.07-09.28.52:189][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.07-09.28.52:189][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.07-09.28.52:702][  0]LogNetVersion: PlanX , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4232075429)
-[2017.11.07-09.28.53:188][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.220083 seconds
-[2017.11.07-09.28.53:195][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.11.07-09.28.53:195][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.11.07-09.28.53:195][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.07-09.28.53:251][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.07-09.29.16:512][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.07-09.29.16:586][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.07-09.29.17:486][  0]SourceControl: Source control is disabled
-[2017.11.07-09.29.19:608][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.07-09.29.20:239][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
-[2017.11.07-09.29.20:312][  0]LogOcInput: OculusInput pre-init called
-[2017.11.07-09.29.20:804][  0]LogEngine: Initializing Engine...
-[2017.11.07-09.29.23:395][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-21CE5F1D
-[2017.11.07-09.29.23:697][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.07-09.29.23:697][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.07-09.29.23:871][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.07-09.29.23:894][  0]LogInit: XAudio2 using 'Real Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-09.29.23:909][  0]LogInit: FAudioDevice initialized.
-[2017.11.07-09.29.24:009][  0]LogDerivedDataCache: Saved boot cache 0.10s 106MB C:/Users/Robbi/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.07-09.29.24:028][  0]LogInit: Texture streaming: Enabled
-[2017.11.07-09.29.24:073][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.07-09.29.24:450][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.07-09.29.24:850][  0]LogInit: Transaction tracking system initialized
-[2017.11.07-09.29.25:410][  0]BlueprintLog: New page: Editor Load
-[2017.11.07-09.29.26:785][  0]LocalizationService: Localization service is disabled
-[2017.11.07-09.29.28:303][  0]LogConsoleResponse: Display: 
-[2017.11.07-09.29.29:146][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.07-09.29.29:147][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.07-09.29.29:147][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.07-09.29.29:429][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/Plan-X/PlanX/Content/' took 0.25s
-[2017.11.07-09.29.30:227][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
-[2017.11.07-09.29.30:227][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
-[2017.11.07-09.29.30:228][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
-[2017.11.07-09.29.30:228][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Sphere'
-[2017.11.07-09.29.30:228][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Sphere'
-[2017.11.07-09.29.30:228][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Sphere.Sphere'
-[2017.11.07-09.29.30:228][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cylinder'
-[2017.11.07-09.29.30:228][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cylinder'
-[2017.11.07-09.29.30:228][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cylinder.Cylinder'
-[2017.11.07-09.29.30:228][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cone'
-[2017.11.07-09.29.30:228][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cone'
-[2017.11.07-09.29.30:228][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cone.Cone'
-[2017.11.07-09.29.30:228][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Plane'
-[2017.11.07-09.29.30:228][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Plane'
-[2017.11.07-09.29.30:228][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Plane.Plane'
-[2017.11.07-09.29.31:712][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Plan-X/PlanX/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.07-09.29.31:712][  0]LightingResults: New page: Lighting Build
-[2017.11.07-09.29.31:754][  0]MapCheck: New page: Map Check
-[2017.11.07-09.29.31:754][  0]LightingResults: New page: Lighting Build
-[2017.11.07-09.29.33:653][  0]LogAIModule: Creating AISystem for world MotionControllerMap
-[2017.11.07-09.29.33:703][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.07-09.29.33:727][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.07-09.29.33:817][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.327ms to complete.
-[2017.11.07-09.29.33:817][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 2.106
-[2017.11.07-09.29.34:303][  0]LogCollectionManager: Loaded 0 collections in 0.001667 seconds
-[2017.11.07-09.29.34:389][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/Plan-X/PlanX/Saved/Collections/' took 0.01s
-[2017.11.07-09.29.34:389][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/Plan-X/PlanX/Content/Developers/Robbi/Collections/' took 0.01s
-[2017.11.07-09.29.34:389][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/Plan-X/PlanX/Content/Collections/' took 0.01s
-[2017.11.07-09.29.34:389][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.11.07-09.29.34:412][  0]LogContentBrowser: Native class hierarchy populated in 0.0230 seconds. Added 2337 classes and 483 folders.
-[2017.11.07-09.29.34:484][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.11.07-09.29.37:179][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.11.07-09.29.37:246][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.11.07-09.29.37:350][  0]LogSlate: Took 0.040234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.07-09.29.37:368][  0]LogSlate: Took 0.016466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.07-09.29.37:388][  0]LogSlate: Took 0.015519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.07-09.29.37:562][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
-[2017.11.07-09.29.37:875][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.11.07-09.29.37:875][  0]LogLoad: (Engine Initialization) Total time: 80.59 seconds
-[2017.11.07-09.29.37:875][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.07-09.29.37:875][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.07-09.29.38:210][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.07-09.29.38:216][  0]LogSteamVRController: Controller role for device 3 is 2 (invalid=0, left=1, right=2).
-[2017.11.07-09.29.38:216][  0]LogSteamVRController: Warning: Controller device 3 is being assigned to its prefered role 'right'.
-[2017.11.07-09.29.38:216][  0]LogSteamVRController: Controller role for device 4 is 1 (invalid=0, left=1, right=2).
-[2017.11.07-09.29.38:216][  0]LogSteamVRController: Putting controller 4 on the left hand because there is already a controller for the right.
-[2017.11.07-09.29.38:249][  0]SourceControl: On branch master
-[2017.11.07-09.29.38:249][  0]SourceControl: Your branch is up to date with 'origin/master'.
-[2017.11.07-09.29.38:249][  0]SourceControl: Changes to be committed:
-[2017.11.07-09.29.38:249][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
-[2017.11.07-09.29.38:249][  0]SourceControl: 	modified:   PlanX/Content/Assets/Blueprints/Sphere_DM_Blueprint.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	copied:     PlanX/Content/Assets/Blueprints/Sphere_DM_Blueprint.uasset -> PlanX/Content/Assets/Blueprints/Sphere_Door1.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Box_Brush180_StaticMesh_Blueprint.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	copied:     PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Destructible1.uasset -> PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area1/Destructible1.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	copied:     PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Destructible2.uasset -> PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area2/Destructible2.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	copied:     PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Destructible3.uasset -> PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area2/Destructible3.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	new file:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible4.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	new file:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible5.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	new file:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible6.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	new file:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible7.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Destructible1.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Destructible2.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Destructible3.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	new file:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Destructible4.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	new file:   PlanX/Content/Assets/Mapt_data/F1_L1/Doors/ExitPortal.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	new file:   PlanX/Content/Assets/Mapt_data/F1_L1/Doors/Exit_Trigger_Box_Blueprint.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	new file:   PlanX/Content/StarterContent/Shapes/Shape_Sphere_DM.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	new file:   PlanX/Content/VirtualRealityBP/Blueprints/Destructible.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	new file:   PlanX/Content/VirtualRealityBP/Blueprints/Destructible1.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	new file:   PlanX/Content/VirtualRealityBP/Blueprints/Door_Cube.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	new file:   PlanX/Content/VirtualRealityBP/Blueprints/Door_Cube_2.uasset
-[2017.11.07-09.29.38:249][  0]SourceControl: 	new file:   PlanX/Content/VirtualRealityBP/Blueprints/SM_1M_Cube_DM_BP.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: Changes not staged for commit:
-[2017.11.07-09.29.38:250][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
-[2017.11.07-09.29.38:250][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Blueprints/Player_Disk_Actor.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Loose_Geometry/Geometry/Meshes/SM_1M_Cube_DM.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0.umap
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/Challenge_Levels/Challange_L_1_0_BuiltData.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible4.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible5.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible6.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible7.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Doors/ExitPortal.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Doors/Exit_Trigger_Box_Blueprint.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1_BuiltData.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/HubWord/HubWord.umap
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/HubWord/HubWord_BuiltData.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Materals_UVs_Textures/M_inst/Color_Box/M_GreenBox_Inst.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Materals_UVs_Textures/M_materials/BoxedLights/M_BlueBox.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Materals_UVs_Textures/M_materials/Dome_material.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/Assets/Materals_UVs_Textures/M_materials/M_Floor_Wall_Ceiling.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/StarterContent/Materials/M_Basic_Wall.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/StarterContent/Materials/M_Ground_Grass.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/StarterContent/Materials/M_Ground_Moss.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/StarterContent/Props/Materials/M_Door.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/StarterContent/Props/Materials/M_Lamp.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/StarterContent/Shapes/Shape_Sphere_DM.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/VirtualReality/Materials/M_ArcEndpoint.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	deleted:    PlanX/Content/VirtualRealityBP/Blueprints/Destructible1.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/VirtualRealityBP/Blueprints/DoorPrototype.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Intermediate/AssetRegistryCache/c90e3f55.bin
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Intermediate/CachedAssetRegistry.bin
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Saved/AutoScreenshot.png
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Saved/Autosaves/Game/Assets/Blueprints/Player_Disk_Actor_Auto1.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Saved/Autosaves/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1_Auto1.umap
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Saved/Autosaves/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1_Auto2.umap
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Saved/Autosaves/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1_Auto3.umap
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap
-[2017.11.07-09.29.38:250][  0]SourceControl: 	modified:   PlanX/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto3.umap
-[2017.11.07-09.29.38:250][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/BP_PickupCube_2017-10-25-15-50-47.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Box_Brush180_StaticMesh_2017-10-25-11-20-28.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Box_Brush180_StaticMesh_Blueprint_2017-10-24-23-32-48.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Box_Brush180_StaticMesh_Blueprint_2017-10-24-23-39-15.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Box_Brush180_StaticMesh_Blueprint_2017-10-24-23-44-55.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Box_Brush180_StaticMesh_Blueprint_2017-10-24-23-58-40.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Box_Brush180_StaticMesh_Blueprint_2017-10-25-09-39-18.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Box_Brush180_StaticMesh_Blueprint_2017-10-25-09-44-26.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Box_Brush180_StaticMesh_Blueprint_2017-10-25-09-58-22.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Box_Brush180_StaticMesh_Blueprint_2017-10-25-11-25-05.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Box_Brush180_StaticMesh_Blueprint_2017-10-25-11-42-37.uasset
-[2017.11.07-09.29.38:250][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Box_Brush180_StaticMesh_Blueprint_2017-10-25-13-03-35.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Box_Brush180_StaticMesh_Blueprint_2017-10-25-13-21-38.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Box_Brush180_StaticMesh_Blueprint_2017-10-25-13-27-48.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/DoorPrototype_2017-10-25-15-31-48.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/DoorPrototype_2017-10-25-15-39-14.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/DoorPrototype_2017-10-25-15-44-14.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/DoorPrototype_2017-10-25-15-49-46.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/DoorPrototype_2017-10-25-15-54-50.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/DoorTest_2017-10-25-13-34-42.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/DoorTest_2017-10-25-15-44-17.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Event_Mover_BP_2017-10-24-17-11-18.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Event_Mover_BP_2017-10-24-18-20-22.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Event_Mover_BP_2017-10-24-23-11-09.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Event_Mover_BP_2017-10-24-23-18-01.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Event_Mover_BP_2017-10-24-23-24-31.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Event_Mover_BP_2017-10-24-23-47-44.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Event_Mover_BP_2017-10-24-23-59-57.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Event_Mover_BP_2017-10-25-09-39-19.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Event_Mover_BP_2017-10-25-09-58-22.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Event_Mover_BP_2017-10-25-11-25-06.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-10-24-17-16-23.umap
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-10-24-22-59-14.umap
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-10-25-08-57-07.umap
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-10-25-09-11-50.umap
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-10-25-11-22-43.umap
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-10-25-11-28-58.umap
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-10-25-11-36-02.umap
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-10-25-11-49-20.umap
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-10-25-12-36-56.umap
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-10-25-16-00-56.umap
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_BuiltData_2017-10-24-17-16-23.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_BuiltData_2017-10-24-22-59-14.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_BuiltData_2017-10-25-08-57-09.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_BuiltData_2017-10-25-09-11-50.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_BuiltData_2017-10-25-11-28-59.uasset
-[2017.11.07-09.29.38:251][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_BuiltData_2017-10-25-11-36-02.uasset
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_BuiltData_2017-10-25-11-49-21.uasset
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_BuiltData_2017-10-25-12-36-59.uasset
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_BuiltData_2017-10-25-16-00-56.uasset
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-24-12-19-45.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-24-13-08-48.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-24-13-15-00.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-24-16-34-23.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-24-16-39-54.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-24-17-11-13.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-24-17-18-09.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-24-22-58-39.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-24-23-09-43.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-24-23-18-01.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-24-23-32-47.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-24-23-50-36.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-24-23-55-46.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-00-07-34.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-00-20-54.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-09-39-23.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-09-46-07.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-10-57-57.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-11-06-12.umap
-[2017.11.07-09.29.38:253][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-11-20-39.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-11-26-38.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-11-34-31.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-11-44-32.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-13-06-09.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-13-22-36.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-13-30-12.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-10-25-13-44-35.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-24-13-08-49.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-24-13-15-01.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-24-16-34-24.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-24-16-39-55.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-24-22-58-41.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-24-23-09-44.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-24-23-55-47.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-25-00-07-35.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-25-00-21-00.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-25-09-39-24.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-25-09-47-05.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-25-10-57-58.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-25-11-06-13.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-25-11-20-40.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-25-11-26-39.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-25-11-34-32.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-25-13-06-10.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-25-13-30-13.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-10-25-13-44-36.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-10-24-17-13-56.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-10-24-17-26-55.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-10-24-17-45-01.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-10-24-17-51-52.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-10-24-18-08-00.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-10-24-18-18-45.umap
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_Fl_L2_CMR_BuiltData_2017-10-24-17-13-56.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_Fl_L2_CMR_BuiltData_2017-10-24-17-26-56.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_Fl_L2_CMR_BuiltData_2017-10-24-17-45-01.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_Fl_L2_CMR_BuiltData_2017-10-24-17-51-52.uasset
-[2017.11.07-09.29.38:254][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_Fl_L2_CMR_BuiltData_2017-10-24-18-08-01.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_Fl_L2_CMR_BuiltData_2017-10-24-18-18-46.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-10-25-00-10-53.umap
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-10-25-13-47-53.umap
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-10-25-15-32-13.umap
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-10-25-15-42-54.umap
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-10-25-15-55-21.umap
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-10-25-13-47-53.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-10-25-15-42-54.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-10-25-15-55-22.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-10-25-00-07-19.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-10-25-15-48-31.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Sphere_DM_2017-10-24-12-19-46.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Sphere_DM_2017-10-24-12-29-18.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Sphere_DM_2017-10-24-12-55-18.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Sphere_DM_2017-10-24-13-02-13.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Sphere_DM_2017-10-24-13-08-45.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Sphere_DM_2017-10-25-00-04-04.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Sphere_DM_Blueprint_2017-10-24-23-47-35.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Sphere_DM_Blueprint_2017-10-24-23-59-54.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Sphere_DM_Blueprint_2017-10-25-00-13-11.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Sphere_DM_Blueprint_2017-10-25-00-19-30.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Sphere_DM_Blueprint_2017-10-25-09-39-14.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	modified:   PlanX/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.11.07-09.29.38:255][  0]SourceControl: 	modified:   PlanX/Saved/Config/Windows/Engine.ini
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.24-13.12.13.log
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.24-16.23.33.log
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.24-16.46.21.log
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.24-22.57.41.log
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.24-23.04.17.log
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.24-23.18.29.log
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.25-00.04.36.log
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.25-08.51.09.log
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.25-11.10.24.log
-[2017.11.07-09.29.38:255][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.10.25-15.59.54.log
-[2017.11.07-09.29.38:255][  0]SourceControl: 	modified:   PlanX/Saved/Logs/PlanX.log
-[2017.11.07-09.29.38:255][  0]SourceControl: 	modified:   PlanX/Saved/Logs/PlanX_2.log
-[2017.11.07-09.29.38:255][  0]SourceControl: Untracked files:
-[2017.11.07-09.29.38:255][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Autosaves/Game/Assets/Mapt_data/F1_L1/Destructibles/
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Autosaves/Game/Assets/Mapt_data/F1_L1/Doors/
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/DoorPrototype_Auto1.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/DoorPrototype_Auto3.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Challange_L_1_0_2017-11-07-00-22-04.umap
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Challange_L_1_0_BuiltData_2017-11-07-00-22-04.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-06-09-10-46.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-06-09-25-06.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-06-09-31-44.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-06-09-49-18.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-06-09-54-27.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-06-10-00-45.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-07-00-33-19.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible2_2017-11-06-20-05-02.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible2_2017-11-06-20-21-03.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible2_2017-11-06-20-26-24.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible2_2017-11-06-20-42-45.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible2_2017-11-06-20-48-23.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible2_2017-11-06-21-00-20.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible2_2017-11-06-21-06-49.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible2_2017-11-07-00-33-31.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible3_2017-11-06-20-05-58.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible3_2017-11-06-20-17-18.uasset
-[2017.11.07-09.29.38:255][  0]SourceControl: 	PlanX/Saved/Backup/Destructible3_2017-11-06-20-25-53.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Destructible3_2017-11-06-20-42-33.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Destructible3_2017-11-06-21-00-06.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Destructible3_2017-11-06-21-06-51.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Destructible3_2017-11-07-00-33-34.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Destructible4_2017-11-07-00-41-52.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Destructible5_2017-11-07-00-41-35.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Destructible6_2017-11-07-00-41-18.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Destructible7_2017-11-07-00-41-04.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door1_2017-11-06-09-40-08.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door1_2017-11-06-09-48-51.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door1_2017-11-06-09-58-31.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-06-19-56-34.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-06-20-06-04.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-06-20-19-33.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-06-20-25-17.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-06-20-30-23.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-06-20-43-46.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-06-20-50-48.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-06-21-01-46.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-06-21-07-24.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door_1_2017-11-06-09-12-11.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door_1_2017-11-06-09-24-45.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Door_1_2017-11-06-09-40-00.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/ExitPortal_2017-11-07-00-49-39.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Exit_Trigger_Box_Blueprint_2017-11-07-00-52-54.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_2017-11-07-00-53-06.umap
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_2017-11-07-01-03-23.umap
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_2017-11-07-01-08-32.umap
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_2017-11-07-01-19-01.umap
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_2017-11-07-01-24-01.umap
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_BuiltData_2017-11-07-01-03-24.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_BuiltData_2017-11-07-01-08-33.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_BuiltData_2017-11-07-01-19-02.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_BuiltData_2017-11-07-01-24-02.uasset
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-09-05-49.umap
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-09-11-31.umap
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-09-26-31.umap
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-09-31-48.umap
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-09-40-25.umap
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-09-46-25.umap
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-09-56-12.umap
-[2017.11.07-09.29.38:258][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-10-02-36.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-10-34-29.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-20-06-06.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-20-12-06.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-20-26-23.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-20-43-45.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-20-53-51.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-21-03-53.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-21-10-03.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-21-17-33.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-21-24-54.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-06-21-58-58.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-00-12-21.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-00-33-53.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-00-44-29.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-00-49-39.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-00-57-58.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-09-06-15.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-09-11-32.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-09-26-32.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-09-31-48.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-09-40-26.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-09-46-25.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-09-56-13.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-10-02-37.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-10-34-30.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-20-06-07.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-20-12-07.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-20-26-44.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-21-04-29.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-21-10-04.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-21-17-34.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-21-24-55.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-21-58-59.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-00-12-22.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-00-33-54.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-00-44-31.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-01-01-12.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/M_ArcEndpoint_2017-11-06-09-13-54.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/M_BlueBox_2017-11-06-09-13-25.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/M_Door_2017-11-06-09-13-54.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/M_Floor_Wall_Ceiling_2017-11-06-09-13-25.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/M_GreenBox_Inst_2017-11-06-09-13-24.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/M_Ground_Grass_2017-11-06-09-13-54.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/M_Ground_Moss_2017-11-06-09-13-54.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/M_Lamp_2017-11-06-09-13-54.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/M_MaterialSphere_2017-11-06-09-13-54.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_2017-11-07-00-08-02.umap
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-07-00-08-02.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerPawn_2017-11-07-00-09-36.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerPawn_2017-11-07-00-21-24.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerPawn_2017-11-07-01-20-56.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Player_Disk_Actor_2017-11-07-00-20-14.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Player_Disk_Actor_2017-11-07-00-32-45.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Player_Disk_Actor_2017-11-07-00-45-01.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/SM_1M_Cube_DM_2017-11-06-09-33-27.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Shape_Sphere_DM_2017-11-06-09-25-37.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Shape_Sphere_DM_2017-11-06-09-31-41.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Backup/Shape_Sphere_DM_2017-11-06-09-55-04.uasset
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-1D41FF7E4DC40493F1AE23BDA7D8F008_0000/
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-1F422B794A86147C8120499D6B42DC85_0000/
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-2BBF323A480D3E1C4C8B5CA1626D0359_0000/
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-4A3B431048ADE2C2379C88948AE18D79_0000/
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-5191038D437F465F92A0A3ADEB1D0384_0000/
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-8FC9DB4548E8F081E177E69A41893E1F_0000/
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.06-08.27.58.log
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.06-08.30.59.log
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.06-09.00.38.log
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.06-09.08.03.log
-[2017.11.07-09.29.38:259][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.06-09.37.34.log
-[2017.11.07-09.29.38:260][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.06-19.55.01.log
-[2017.11.07-09.29.38:260][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.07-00.07.28.log
-[2017.11.07-09.29.38:260][  0]SourceControl: 	PlanX/Saved/Logs/PlanX_2-backup-2017.11.07-01.28.20.log
-[2017.11.07-09.29.38:260][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.07-09.29.38:380][  0]LogSlate: Took 0.028343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.07-09.29.38:553][  1]LogFileCache: Retrieving MD5 hashes for directory 'E:/Unreal Projects/Plan-X/PlanX/Content/' took 0.32s
-[2017.11.07-09.29.38:903][  2]LogAssetRegistry: Asset discovery search completed in 48.9489 seconds
-[2017.11.07-09.29.38:905][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.11.07-09.29.38:906][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
-[2017.11.07-09.29.39:228][  3]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.07-09.29.44:924][ 20]LogLinker: Warning: Can't resolve asset name
-[2017.11.07-09.29.54:893][187]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.07-09.29.54:973][187]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Sphere_DM'
-[2017.11.07-09.29.54:973][187]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/Sphere_DM' while loading ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Blueprints/Sphere_Door1.uasset.
-[2017.11.07-09.29.54:973][187]LoadErrors: Error: /Game/Assets/Blueprints/Sphere_Door1 : Can't find file for asset. /Engine/BasicShapes/Sphere_DM
-[2017.11.07-09.29.54:978][187]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Sphere_DM'
-[2017.11.07-09.29.54:978][187]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/Sphere_DM' while loading ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Blueprints/Sphere_Door1.uasset.
-[2017.11.07-09.29.54:979][187]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Sphere_DM'
-[2017.11.07-09.29.54:979][187]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/Sphere_DM' while loading ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap.
-[2017.11.07-09.29.54:979][187]LoadErrors: Error: /Game/Assets/Mapt_data/F1_L1/Initial_F1_L1 : Can't find file for asset. /Engine/BasicShapes/Sphere_DM
-[2017.11.07-09.29.54:979][187]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Sphere_DM'
-[2017.11.07-09.29.54:979][187]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/Sphere_DM' while loading ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap.
-[2017.11.07-09.29.54:980][187]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Sphere_DM'
-[2017.11.07-09.29.54:980][187]LoadErrors: Failed to load /Engine/BasicShapes/Sphere_DM.Sphere_DM Referenced by Default__Sphere_Door1_C
-[2017.11.07-09.29.54:980][187]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/Sphere_DM' while loading ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap.
-[2017.11.07-09.29.55:536][187]LogAIModule: Creating AISystem for world Initial_F1_L1
-[2017.11.07-09.29.55:601][187]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.07-09.29.55:601][187]LightingResults: New page: Lighting Build
-[2017.11.07-09.29.55:602][187]LoadErrors: New page: Loading map: Initial_F1_L1.umap
-[2017.11.07-09.29.55:603][187]MapCheck: New page: Map Check
-[2017.11.07-09.29.55:603][187]LightingResults: New page: Lighting Build
-[2017.11.07-09.29.55:668][187]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.07-09.29.55:729][187]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.07-09.29.55:802][187]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.017ms to complete.
-[2017.11.07-09.29.55:803][187]LogFileHelpers: Loading map 'Initial_F1_L1' took 0.203
-[2017.11.07-09.29.58:439][318]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.07-09.29.59:075][350]LogEditorViewport: Clicking on Actor (LMB): Exit_Trigger_Box_Blueprint_C (Exit_Trigger_Box_Blueprint)
-[2017.11.07-09.30.00:443][408]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
-[2017.11.07-09.30.07:711][746]LogSlate: Took 0.021019 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.11.07-09.30.11:067][951]LogRenderer: Reallocating scene render targets to support 1208x900 Format 26 NumSamples 1 (Frame:1).
-[2017.11.07-09.30.11:462][966]LogSlate: Took 0.097212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.11.07-09.30.47:882][635]BlueprintLog: New page: Compile Initial_F1_L1
-[2017.11.07-09.30.52:434][ 59]LogSavePackage: Save=789.49ms
-[2017.11.07-09.30.52:434][ 59]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Initial_F1_L1CE2EE6EB4133F538D60D5CB38B5AACAB.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap'
-[2017.11.07-09.30.52:561][ 59]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap
-[2017.11.07-09.30.52:610][ 59]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.07-09.30.52:612][ 59]LogFileHelpers: Saving map 'Initial_F1_L1' took 1.084
-[2017.11.07-09.32.25:649][666]BlueprintLog: New page: Compile Destructible4
-[2017.11.07-09.33.34:820][617]BlueprintLog: New page: Compile Initial_F1_L1
-[2017.11.07-09.33.36:400][687]LogSavePackage: Save=784.96ms
-[2017.11.07-09.33.36:400][687]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Initial_F1_L191BE6A7B428949BD464F2FA340ED9DD4.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap'
-[2017.11.07-09.33.36:404][687]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap
-[2017.11.07-09.33.36:452][687]LogFileHelpers: Saving map 'Initial_F1_L1' took 0.936
-[2017.11.07-09.34.22:402][119]BlueprintLog: New page: Compile Exit_Trigger_Box_Blueprint
-[2017.11.07-09.34.25:097][387]LogSavePackage: Save=36.10ms
-[2017.11.07-09.34.25:097][387]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Exit_Trigger_Box_Blueprint450FF74447018744F790C899F28BF705.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Doors/Exit_Trigger_Box_Blueprint.uasset'
-[2017.11.07-09.34.25:100][387]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Doors/Exit_Trigger_Box_Blueprint.uasset
-[2017.11.07-09.34.25:676][455]BlueprintLog: New page: Compile Exit_Trigger_Box_Blueprint
-[2017.11.07-09.34.26:834][545]LogSavePackage: Save=17.62ms
-[2017.11.07-09.34.26:834][545]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Exit_Trigger_Box_Blueprint72138707444E50DFB371569768CFD5AC.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Doors/Exit_Trigger_Box_Blueprint.uasset'
-[2017.11.07-09.34.26:836][545]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Doors/Exit_Trigger_Box_Blueprint.uasset
-[2017.11.07-09.34.36:310][678]BlueprintLog: New page: Compile Exit_Trigger_Box_Blueprint
-[2017.11.07-09.34.37:241][741]LogSavePackage: Save=17.75ms
-[2017.11.07-09.34.37:241][741]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Exit_Trigger_Box_BlueprintC45045204B622AA9811B8690A762F17B.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Doors/Exit_Trigger_Box_Blueprint.uasset'
-[2017.11.07-09.34.37:244][741]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Doors/Exit_Trigger_Box_Blueprint.uasset
-[2017.11.07-09.34.40:666][150]BlueprintLog: New page: Compile Exit_Trigger_Box_Blueprint
-[2017.11.07-09.34.41:318][180]LogSavePackage: Save=18.07ms
-[2017.11.07-09.34.41:318][180]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Exit_Trigger_Box_Blueprint5A3031154CB7695240AA51AB9840F85A.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Doors/Exit_Trigger_Box_Blueprint.uasset'
-[2017.11.07-09.34.41:319][180]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Doors/Exit_Trigger_Box_Blueprint.uasset
-[2017.11.07-09.34.44:776][593]BlueprintLog: New page: Compile Initial_F1_L1
-[2017.11.07-09.34.46:373][667]LogSavePackage: Save=784.68ms
-[2017.11.07-09.34.46:373][667]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Initial_F1_L113EC0A79465EDAC0EE8C38AFF8F2C229.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap'
-[2017.11.07-09.34.46:377][667]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap
-[2017.11.07-09.34.46:425][667]LogFileHelpers: Saving map 'Initial_F1_L1' took 0.931
-[2017.11.07-09.34.48:587][756]LogSavePackage: Save=784.50ms
-[2017.11.07-09.34.48:588][756]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Initial_F1_L1772C19FB4AB6D2E9DBBEC99B272DFA07.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap'
-[2017.11.07-09.34.48:589][756]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap
-[2017.11.07-09.34.49:034][756]LogSavePackage: Save=273.79ms
-[2017.11.07-09.34.49:034][756]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Initial_F1_L1_BuiltDataEDFA74294FB889DD121C298085655D79.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1_BuiltData.uasset'
-[2017.11.07-09.34.49:036][756]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1_BuiltData.uasset
-[2017.11.07-09.34.50:617][912]BlueprintLog: New page: Compile Destructible4
-[2017.11.07-09.34.54:432][155]LogSavePackage: Save=782.14ms
-[2017.11.07-09.34.54:432][155]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Initial_F1_L15675A9BA4AA5DE2829757B9863CA83C8.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap'
-[2017.11.07-09.34.54:435][155]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap
-[2017.11.07-09.34.54:482][155]LogFileHelpers: Saving map 'Initial_F1_L1' took 0.929
-[2017.11.07-09.34.58:374][504]LogSavePackage: Save=17.59ms
-[2017.11.07-09.34.58:374][504]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Destructible4AA673A404BA52E691F0C9285E78124BC.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible4.uasset'
-[2017.11.07-09.34.58:377][504]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible4.uasset
-[2017.11.07-09.35.01:719][722]LogSavePackage: Save=787.70ms
-[2017.11.07-09.35.01:720][722]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Initial_F1_L10DABBD7E4E1E7B51C23EA38E95772012.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap'
-[2017.11.07-09.35.01:721][722]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap
-[2017.11.07-09.35.02:058][722]LogSavePackage: Save=202.42ms
-[2017.11.07-09.35.02:058][722]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Initial_F1_L1_BuiltData46DFD0074D770A252E50C59F6FAB599F.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1_BuiltData.uasset'
-[2017.11.07-09.35.02:059][722]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1_BuiltData.uasset
-[2017.11.07-09.35.06:304][ 67]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.11.07-09.35.09:947][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1:PersistentLevel' has LevelScriptBlueprint '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1:PersistentLevel.Initial_F1_L1' with GeneratedClass '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1_C' with ClassGeneratedBy '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1:PersistentLevel.Initial_F1_L1'
-[2017.11.07-09.35.09:947][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.07-09.35.09:947][277]PIE: New page: PIE session: Initial_F1_L1 (Nov 6, 2017, 5:35:09 PM)
-[2017.11.07-09.35.09:948][277]LogPlayLevel: Creating play world package: /Game/Assets/Mapt_data/F1_L1/UEDPIE_0_Initial_F1_L1
-[2017.11.07-09.35.10:002][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054485s)
-[2017.11.07-09.35.10:003][277]LogAIModule: Creating AISystem for world Initial_F1_L1
-[2017.11.07-09.35.10:003][277]LogPlayLevel: PIE: World Init took: (0.000767s)
-[2017.11.07-09.35.10:003][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1 to /Game/Assets/Mapt_data/F1_L1/UEDPIE_0_Initial_F1_L1.Initial_F1_L1 (0.055720s)
-[2017.11.07-09.35.10:034][277]LogInit: XAudio2 using 'Real Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.07-09.35.10:042][277]LogInit: FAudioDevice initialized.
-[2017.11.07-09.35.10:147][277]LogLoad: Game class is 'GameMode'
-[2017.11.07-09.35.10:158][277]LogWorld: Bringing World /Game/Assets/Mapt_data/F1_L1/UEDPIE_0_Initial_F1_L1.Initial_F1_L1 up for play (max tick rate 0) at 2017.11.07-01.35.10
-[2017.11.07-09.35.10:158][277]LogWorld: Bringing up level for play took: 0.010495
-[2017.11.07-09.35.10:194][277]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2017.11.07-09.35.10:194][277]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.07-09.35.10:194][277]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.07-09.35.10:194][277]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.07-09.35.10:198][277]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.07-09.35.10:205][277]PIE: Play in editor start time for /Game/Assets/Mapt_data/F1_L1/UEDPIE_0_Initial_F1_L1 0.04
-[2017.11.07-09.35.10:206][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1:PersistentLevel' has LevelScriptBlueprint '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1:PersistentLevel.Initial_F1_L1' with GeneratedClass '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1_C' with ClassGeneratedBy '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1:PersistentLevel.Initial_F1_L1'
-[2017.11.07-09.35.10:209][277]LogAnsel: We reckon 0.010000 meters to 1 world unit
-[2017.11.07-09.35.10:265][279]LogRenderer: Reallocating scene render targets to support 3024x1680 Format 26 NumSamples 1 (Frame:1).
-[2017.11.07-09.35.36:155][355]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.07-09.35.36:155][355]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.07-09.35.36:156][355]LogNet: Browse: /Game/Assets/Mapt_data/HubWord/HubWord
-[2017.11.07-09.35.36:178][355]LogLoad: LoadMap: /Game/Assets/Mapt_data/HubWord/HubWord
-[2017.11.07-09.35.36:224][355]Cmd: MEM
-[2017.11.07-09.35.36:248][355]LogMemory: Platform Memory Stats for Windows
-[2017.11.07-09.35.36:248][355]LogMemory: Process Physical Memory: 1951.22 MB used, 1962.63 MB peak
-[2017.11.07-09.35.36:248][355]LogMemory: Process Virtual Memory: 3196.59 MB used, 3381.46 MB peak
-[2017.11.07-09.35.36:248][355]LogMemory: Physical Memory: 4665.68 MB used,  3478.19 MB free, 8143.87 MB total
-[2017.11.07-09.35.36:248][355]LogMemory: Virtual Memory: 4083.80 MB used,  3478.19 MB free, 134217728.00 MB total
-[2017.11.07-09.35.36:248][355]LogMemory: 
-[2017.11.07-09.35.36:248][355]Allocator Stats for TBB: (not implemented)
-[2017.11.07-09.35.41:649][355]LogAIModule: Creating AISystem for world HubWord
-[2017.11.07-09.35.41:650][355]LogLoad: Game class is 'GameMode'
-[2017.11.07-09.35.41:658][355]LogWorld: Bringing World /Game/Assets/Mapt_data/HubWord/UEDPIE_0_HubWord.HubWord up for play (max tick rate 0) at 2017.11.07-01.35.41
-[2017.11.07-09.35.41:659][355]LogWorld: Bringing up level for play took: 0.008302
-[2017.11.07-09.35.41:659][355]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.11.07-09.35.41:660][355]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.07-09.35.41:660][355]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.07-09.35.41:660][355]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.07-09.35.41:663][355]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.07-09.35.41:663][355]LogLoad: Took 5.485635 seconds to LoadMap(/Game/Assets/Mapt_data/HubWord/HubWord)
-[2017.11.07-09.35.41:674][356]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.07-09.35.41:674][356]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.07-09.35.41:674][356]LogNet: Browse: /Game/Assets/Mapt_data/HubWord/HubWord
-[2017.11.07-09.35.41:818][356]LogLoad: LoadMap: /Game/Assets/Mapt_data/HubWord/HubWord
-[2017.11.07-09.35.41:873][356]Cmd: MEM
-[2017.11.07-09.35.41:896][356]LogMemory: Platform Memory Stats for Windows
-[2017.11.07-09.35.41:896][356]LogMemory: Process Physical Memory: 3276.20 MB used, 3276.95 MB peak
-[2017.11.07-09.35.41:896][356]LogMemory: Process Virtual Memory: 5084.08 MB used, 5084.08 MB peak
-[2017.11.07-09.35.41:896][356]LogMemory: Physical Memory: 5910.23 MB used,  2233.64 MB free, 8143.87 MB total
-[2017.11.07-09.35.41:896][356]LogMemory: Virtual Memory: 5942.48 MB used,  2233.64 MB free, 134217728.00 MB total
-[2017.11.07-09.35.41:896][356]LogMemory: 
-[2017.11.07-09.35.41:896][356]Allocator Stats for TBB: (not implemented)
-[2017.11.07-09.35.42:150][356]LogAIModule: Creating AISystem for world HubWord
-[2017.11.07-09.35.42:151][356]LogLoad: Game class is 'GameMode'
-[2017.11.07-09.35.42:155][356]LogWorld: Bringing World /Game/Assets/Mapt_data/HubWord/UEDPIE_0_HubWord.HubWord up for play (max tick rate 0) at 2017.11.07-01.35.42
-[2017.11.07-09.35.42:156][356]LogWorld: Bringing up level for play took: 0.004425
-[2017.11.07-09.35.42:156][356]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.11.07-09.35.42:156][356]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.07-09.35.42:156][356]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.07-09.35.42:156][356]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.07-09.35.42:159][356]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.07-09.35.42:160][356]LogLoad: Took 0.341178 seconds to LoadMap(/Game/Assets/Mapt_data/HubWord/HubWord)
-[2017.11.07-09.35.48:949][558]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1:PersistentLevel' has LevelScriptBlueprint '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1:PersistentLevel.Initial_F1_L1' with GeneratedClass '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1_C' with ClassGeneratedBy '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1:PersistentLevel.Initial_F1_L1'
-[2017.11.07-09.35.49:150][558]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1:PersistentLevel' has LevelScriptBlueprint '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1:PersistentLevel.Initial_F1_L1' with GeneratedClass '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1_C' with ClassGeneratedBy '/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1.Initial_F1_L1:PersistentLevel.Initial_F1_L1'
-[2017.11.07-09.36.06:053][ 73]BlueprintLog: New page: Compile Exit_Trigger_Box_Blueprint
-[2017.11.07-09.36.06:859][111]LogSavePackage: Save=19.91ms
-[2017.11.07-09.36.06:859][111]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Exit_Trigger_Box_BlueprintF3DD920E49D81C4EB8F829AB12498614.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Doors/Exit_Trigger_Box_Blueprint.uasset'
-[2017.11.07-09.36.06:863][111]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Doors/Exit_Trigger_Box_Blueprint.uasset
-[2017.11.07-09.36.10:599][411]LogSavePackage: Save=833.45ms
-[2017.11.07-09.36.10:599][411]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Initial_F1_L178754508461F2F9624E7C1B75FABB997.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap'
-[2017.11.07-09.36.10:604][411]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap
-[2017.11.07-09.36.10:654][411]LogFileHelpers: Saving map 'Initial_F1_L1' took 1.059
-[2017.11.07-09.36.12:568][473]LogSavePackage: Save=863.50ms
-[2017.11.07-09.36.12:568][473]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Initial_F1_L1FDA5B16F49B2EFE4F4854B9C66E4D622.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap'
-[2017.11.07-09.36.12:570][473]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap
-[2017.11.07-09.36.12:922][473]LogSavePackage: Save=212.11ms
-[2017.11.07-09.36.12:922][473]LogSavePackage: Moving '../../../../../Unreal Projects/Plan-X/PlanX/Saved/Initial_F1_L1_BuiltDataEC18D28F491C2E537AC185BFC9EFE74B.tmp' to '../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1_BuiltData.uasset'
-[2017.11.07-09.36.12:923][473]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1_BuiltData.uasset
-[2017.11.07-09.36.14:049][514]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.11.07-09.36.14:108][514]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.11.07-09.36.14:163][514]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.07-09.36.14:358][515]Cmd: QUIT_EDITOR
-[2017.11.07-09.36.14:484][515]LogExit: Preparing to exit.
-[2017.11.07-09.36.14:925][515]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/Plan-X/PlanX/Content/' was aborted.
-[2017.11.07-09.36.14:980][515]LogExit: Editor shut down
-[2017.11.07-09.36.14:983][515]LogExit: Transaction tracking system shut down
-[2017.11.07-09.36.15:230][515]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.11.07-09.36.15:230][515]LogDirectoryWatcher: A directory notification for '../../../../../Unreal Projects/Plan-X/PlanX/Content/' was aborted.
-[2017.11.07-09.36.15:230][515]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.11.07-09.36.15:230][515]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.11.07-09.36.15:456][515]LogExit: Object subsystem successfully closed.
-[2017.11.07-09.36.15:482][515]LogD3D11RHI: Shutdown
-[2017.11.07-09.36.15:482][515]LogD3D11RHI: CleanupD3DDevice
-[2017.11.07-09.36.15:487][515]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.11.07-09.36.15:501][515]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
-[2017.11.07-09.36.15:501][515]LogModuleManager: Shutting down and abandoning module BlueprintGraph (526)
-[2017.11.07-09.36.15:501][515]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (524)
-[2017.11.07-09.36.15:501][515]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (522)
-[2017.11.07-09.36.15:501][515]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
-[2017.11.07-09.36.15:501][515]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
-[2017.11.07-09.36.15:501][515]LogDirectoryWatcher: A directory notification for 'E:/Unreal Engine/UE_4.17/FeaturePacks/' was aborted.
-[2017.11.07-09.36.15:503][515]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
-[2017.11.07-09.36.15:503][515]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
-[2017.11.07-09.36.15:503][515]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
-[2017.11.07-09.36.15:503][515]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/Plan-X/PlanX/Content/Collections/' was aborted.
-[2017.11.07-09.36.15:504][515]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/Plan-X/PlanX/Content/Developers/Robbi/Collections/' was aborted.
-[2017.11.07-09.36.15:504][515]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/Plan-X/PlanX/Saved/Collections/' was aborted.
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module MeshPaint (503)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (500)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module ActorPickerMode (498)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module GeometryMode (496)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module TextureAlignMode (494)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module BspMode (492)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (490)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module HardwareSurvey (488)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (486)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module AutomationWorker (484)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (482)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (480)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module PlacementMode (479)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (476)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (474)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (472)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (470)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (468)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module Media (467)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (464)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module CharacterAI (462)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module AudioCapture (460)
-[2017.11.07-09.36.15:504][515]LogModuleManager: Shutting down and abandoning module SequenceRecorder (459)
-[2017.11.07-09.36.15:505][515]LogModuleManager: Shutting down and abandoning module SessionServices (456)
-[2017.11.07-09.36.15:505][515]LogModuleManager: Shutting down and abandoning module ViewportSnapping (454)
-[2017.11.07-09.36.15:505][515]LogModuleManager: Shutting down and abandoning module ViewportInteraction (452)
-[2017.11.07-09.36.15:505][515]LogModuleManager: Shutting down and abandoning module ClothPainter (450)
-[2017.11.07-09.36.15:505][515]LogModuleManager: Shutting down and abandoning module LogVisualizer (448)
-[2017.11.07-09.36.15:505][515]LogModuleManager: Shutting down and abandoning module IntroTutorials (446)
-[2017.11.07-09.36.15:505][515]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (445)
-[2017.11.07-09.36.15:505][515]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
-[2017.11.07-09.36.15:505][515]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
-[2017.11.07-09.36.15:505][515]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
-[2017.11.07-09.36.15:505][515]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (434)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (432)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (430)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module InputBindingEditor (428)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module MergeActors (426)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module SizeMap (424)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module TreeMap (422)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module ReferenceViewer (420)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (418)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module LocalizationService (417)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module HardwareTargeting (414)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (412)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module UndoHistory (410)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module XmlParser (408)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module Blutility (406)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
-[2017.11.07-09.36.15:635][515]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
-[2017.11.07-09.36.15:636][515]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
-[2017.11.07-09.36.15:636][515]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
-[2017.11.07-09.36.15:636][515]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
-[2017.11.07-09.36.15:689][515]LogModuleManager: Shutting down and abandoning module AutomationController (386)
-[2017.11.07-09.36.15:689][515]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
-[2017.11.07-09.36.15:689][515]LogModuleManager: Shutting down and abandoning module Layers (382)
-[2017.11.07-09.36.15:689][515]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
-[2017.11.07-09.36.15:689][515]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
-[2017.11.07-09.36.15:689][515]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
-[2017.11.07-09.36.15:690][515]LogModuleManager: Shutting down and abandoning module Persona (374)
-[2017.11.07-09.36.15:690][515]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
-[2017.11.07-09.36.15:690][515]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
-[2017.11.07-09.36.15:690][515]LogModuleManager: Shutting down and abandoning module Kismet (368)
-[2017.11.07-09.36.15:704][515]LogModuleManager: Shutting down and abandoning module LevelEditor (367)
-[2017.11.07-09.36.15:705][515]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (366)
-[2017.11.07-09.36.15:705][515]LogModuleManager: Shutting down and abandoning module ClassViewer (362)
-[2017.11.07-09.36.15:705][515]LogModuleManager: Shutting down and abandoning module Toolbox (360)
-[2017.11.07-09.36.15:705][515]LogModuleManager: Shutting down and abandoning module ModuleUI (358)
-[2017.11.07-09.36.15:705][515]LogModuleManager: Shutting down and abandoning module MovieSceneTools (356)
-[2017.11.07-09.36.15:705][515]LogModuleManager: Shutting down and abandoning module OutputLog (354)
-[2017.11.07-09.36.15:705][515]LogModuleManager: Shutting down and abandoning module GammaUI (352)
-[2017.11.07-09.36.15:705][515]LogModuleManager: Shutting down and abandoning module Documentation (350)
-[2017.11.07-09.36.15:705][515]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (348)
-[2017.11.07-09.36.15:705][515]LogModuleManager: Shutting down and abandoning module MovieScene (346)
-[2017.11.07-09.36.15:705][515]LogModuleManager: Shutting down and abandoning module Niagara (344)
-[2017.11.07-09.36.15:705][515]LogModuleManager: Shutting down and abandoning module NiagaraEditor (343)
-[2017.11.07-09.36.15:705][515]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (340)
-[2017.11.07-09.36.15:706][515]LogModuleManager: Shutting down and abandoning module LauncherPlatform (338)
-[2017.11.07-09.36.15:706][515]LogModuleManager: Shutting down and abandoning module AnalyticsET (336)
-[2017.11.07-09.36.15:706][515]LogModuleManager: Shutting down and abandoning module PortalServices (334)
-[2017.11.07-09.36.15:706][515]LogModuleManager: Shutting down and abandoning module PortalRpc (332)
-[2017.11.07-09.36.15:706][515]LogModuleManager: Shutting down and abandoning module MessagingRpc (330)
-[2017.11.07-09.36.15:706][515]LogModuleManager: Shutting down and abandoning module AIModule (328)
-[2017.11.07-09.36.15:706][515]LogModuleManager: Shutting down and abandoning module GameplayDebugger (327)
-[2017.11.07-09.36.15:706][515]LogModuleManager: Shutting down and abandoning module AITestSuite (325)
-[2017.11.07-09.36.15:706][515]LogModuleManager: Shutting down and abandoning module ProfilerService (322)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module TaskGraph (320)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module SteamVRController (318)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (316)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (314)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module OculusInput (312)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module Ansel (310)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (308)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (306)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module CableComponent (304)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (302)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module AndroidPermission (300)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (296)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module HTML5Networking (294)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module AlembicImporter (292)
-[2017.11.07-09.36.15:733][515]LogModuleManager: Shutting down and abandoning module AlembicLibrary (291)
-[2017.11.07-09.36.15:734][515]LogModuleManager: Shutting down and abandoning module GeometryCache (290)
-[2017.11.07-09.36.15:734][515]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (289)
-[2017.11.07-09.36.15:734][515]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
-[2017.11.07-09.36.15:734][515]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
-[2017.11.07-09.36.15:735][515]LogModuleManager: Shutting down and abandoning module MainFrame (281)
-[2017.11.07-09.36.15:735][515]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (278)
-[2017.11.07-09.36.15:735][515]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (276)
-[2017.11.07-09.36.15:735][515]LogModuleManager: Shutting down and abandoning module DesktopPlatform (275)
-[2017.11.07-09.36.15:735][515]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2017.11.07-09.36.15:735][515]LogModuleManager: Shutting down and abandoning module UObjectPlugin (270)
-[2017.11.07-09.36.15:735][515]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (268)
-[2017.11.07-09.36.15:735][515]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (266)
-[2017.11.07-09.36.15:735][515]LogModuleManager: Shutting down and abandoning module GitSourceControl (264)
-[2017.11.07-09.36.15:737][515]LogModuleManager: Shutting down and abandoning module SourceControl (263)
-[2017.11.07-09.36.15:737][515]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (260)
-[2017.11.07-09.36.15:737][515]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (258)
-[2017.11.07-09.36.15:737][515]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (256)
-[2017.11.07-09.36.15:737][515]LogModuleManager: Shutting down and abandoning module PhysXVehicles (254)
-[2017.11.07-09.36.15:737][515]LogModuleManager: Shutting down and abandoning module OculusEditor (252)
-[2017.11.07-09.36.15:737][515]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (250)
-[2017.11.07-09.36.15:737][515]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (248)
-[2017.11.07-09.36.15:737][515]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (246)
-[2017.11.07-09.36.15:737][515]LogModuleManager: Shutting down and abandoning module UdpMessaging (244)
-[2017.11.07-09.36.15:837][515]LogModuleManager: Shutting down and abandoning module TcpMessaging (242)
-[2017.11.07-09.36.15:939][515]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (240)
-[2017.11.07-09.36.15:939][515]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (238)
-[2017.11.07-09.36.15:939][515]LogModuleManager: Shutting down and abandoning module FacialAnimation (236)
-[2017.11.07-09.36.15:939][515]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (234)
-[2017.11.07-09.36.15:939][515]LogModuleManager: Shutting down and abandoning module GraphEditor (233)
-[2017.11.07-09.36.15:939][515]LogModuleManager: Shutting down and abandoning module ContentBrowser (231)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (228)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2017.11.07-09.36.15:941][515]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module Core (168)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2017.11.07-09.36.15:943][515]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2017.11.07-09.36.15:944][515]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2017.11.07-09.36.15:944][515]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.11.07-09.36.16:028][515]LogDerivedDataCache: Shutdown
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.11.07-09.36.16:028][515]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.11.07-09.36.16:029][515]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.11.07-09.36.16:029][515]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.11.07-09.36.16:029][515]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.11.07-09.36.16:029][515]LogOnline: Display: Unloading online subsystem: NULL
-[2017.11.07-09.36.16:029][515]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.11.07-09.36.16:029][515]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.11.07-09.36.16:029][515]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.11.07-09.36.16:029][515]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDAFCEDCA-4CD6-C39B-2EBC-46A6692C71C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=d825469243110291d818ccab09cf7e59%7C38799267579e43f199dcadb14603b7d0%7C62849391-6540-4d55-9d28-bb4dedf70ea1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.11.07-09.36.16:035][515]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.11.07-09.36.16:036][515]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.11.07-09.36.16:036][515]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.11.07-09.36.16:037][515]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.11.07-09.36.16:037][515]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.11.07-09.36.16:037][515]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.11.07-09.36.16:037][515]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.11.07-09.36.16:037][515]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.11.07-09.36.16:039][515]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.11.07-09.36.16:039][515]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.11.07-09.36.16:039][515]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.11.07-09.36.16:039][515]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.11.07-09.36.16:039][515]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.11.07-09.36.16:039][515]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.11.07-09.36.16:039][515]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.11.07-09.36.16:039][515]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.11.07-09.36.16:039][515]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.11.07-09.36.16:039][515]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.11.07-09.36.16:039][515]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.11.07-09.36.16:041][515]LogExit: Exiting.
-[2017.11.07-09.36.16:068][515]Log file closed, 11/07/17 01:36:16
+[2017.11.28-09.19.21:109][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.28-09.19.21:109][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.28-09.19.21:138][  0]LogInit: Computer: DESKTOP-EEVB141
+[2017.11.28-09.19.21:138][  0]LogInit: User: Robbi
+[2017.11.28-09.19.21:138][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.28-09.19.21:138][  0]LogInit: High frequency timer resolution =3.417988 MHz
+[2017.11.28-09.19.21:139][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.11.28-09.19.21:139][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.28-09.19.21:139][  0]LogMemory: Process Physical Memory: 281.27 MB used, 281.27 MB peak
+[2017.11.28-09.19.21:139][  0]LogMemory: Process Virtual Memory: 278.07 MB used, 278.07 MB peak
+[2017.11.28-09.19.21:139][  0]LogMemory: Physical Memory: 6408.30 MB used,  1735.56 MB free, 8143.87 MB total
+[2017.11.28-09.19.21:139][  0]LogMemory: Virtual Memory: 705.84 MB used,  1735.56 MB free, 134217728.00 MB total
+[2017.11.28-09.19.21:263][  0]LogInit: Using OS detected language (en-US).
+[2017.11.28-09.19.21:263][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.28-09.19.21:270][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.28-09.19.22:078][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.28-09.19.22:120][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.11.28-09.19.22:121][  0]LogD3D11RHI:       4058/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.28-09.19.22:122][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.28-09.19.22:122][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.28-09.19.22:122][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.28-09.19.22:127][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.28-09.19.22:127][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.28-09.19.22:127][  0]LogWindows: EnumDisplayDevices:
+[2017.11.28-09.19.22:127][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.11.28-09.19.22:127][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.11.28-09.19.22:128][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.28-09.19.22:128][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.28-09.19.22:128][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.28-09.19.22:128][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.11.28-09.19.22:128][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.28-09.19.22:128][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.28-09.19.22:128][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.28-09.19.22:154][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.28-09.19.22:253][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.28-09.19.22:256][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../Unreal Projects/Plan-X/PlanX/Intermediate/Shaders/WorkingDirectory/8712/).
+[2017.11.28-09.19.22:257][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Robbi/AppData/Local/Temp/UnrealShaderWorkingDir/08173726438E390E1DAD648AE3F98137/'.
+[2017.11.28-09.19.22:257][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.28-09.19.23:491][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.28-09.19.23:543][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.28-09.19.23:593][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.28-09.19.23:642][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.28-09.19.23:691][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.28-09.19.23:745][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.28-09.19.23:795][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.28-09.19.23:845][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.28-09.19.23:889][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.28-09.19.23:939][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.28-09.19.23:992][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.28-09.19.24:041][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.28-09.19.24:091][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.28-09.19.24:142][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.28-09.19.24:191][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.28-09.19.24:292][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.28-09.19.24:292][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.28-09.19.24:328][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.28-09.19.24:417][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.28-09.19.24:445][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.28-09.19.24:492][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.28-09.19.24:547][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.28-09.19.24:595][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.28-09.19.24:645][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.28-09.19.24:645][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.28-09.19.25:105][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.28-09.19.25:228][  0]LogDerivedDataCache: Loaded boot cache 0.12s 106MB C:/Users/Robbi/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.28-09.19.25:228][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Robbi/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.28-09.19.25:228][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Plan-X/PlanX/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.28-09.19.25:228][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.28-09.19.25:228][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/Plan-X/PlanX/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.28-09.19.25:228][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.28-09.19.25:246][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.28-09.19.25:258][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Robbi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.28-09.19.25:269][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.28-09.19.25:270][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.28-09.19.25:270][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.28-09.19.25:270][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.28-09.19.25:612][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2017.11.28-09.19.25:735][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.28-09.19.25:894][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.28-09.19.26:293][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.28-09.19.26:330][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.28-09.19.26:330][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.28-09.19.26:330][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.28-09.19.26:330][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.28-09.19.26:330][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.28-09.19.26:757][  0]LogNetVersion: PlanX , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4232075429)
+[2017.11.28-09.19.27:236][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.245341 seconds
+[2017.11.28-09.19.27:242][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.28-09.19.27:242][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.28-09.19.27:242][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.28-09.19.27:288][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.28-09.19.29:940][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.28-09.19.29:975][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.28-09.19.30:589][  0]SourceControl: Source control is disabled
+[2017.11.28-09.19.32:890][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.28-09.19.33:859][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2017.11.28-09.19.33:907][  0]LogOcInput: OculusInput pre-init called
+[2017.11.28-09.19.34:152][  0]LogEngine: Initializing Engine...
+[2017.11.28-09.19.34:188][  0]LogHMD: Failed to initialize OpenVR with code 117
+[2017.11.28-09.19.34:427][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.28-09.19.34:427][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.28-09.19.34:542][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.28-09.19.34:567][  0]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.28-09.19.34:585][  0]LogInit: FAudioDevice initialized.
+[2017.11.28-09.19.34:680][  0]LogDerivedDataCache: Saved boot cache 0.09s 106MB C:/Users/Robbi/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.28-09.19.34:703][  0]LogInit: Texture streaming: Enabled
+[2017.11.28-09.19.34:741][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.28-09.19.35:027][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.28-09.19.35:261][  0]LogInit: Transaction tracking system initialized
+[2017.11.28-09.19.35:692][  0]BlueprintLog: New page: Editor Load
+[2017.11.28-09.19.36:665][  0]LocalizationService: Localization service is disabled
+[2017.11.28-09.19.37:679][  0]LogConsoleResponse: Display: 
+[2017.11.28-09.19.38:122][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.28-09.19.38:122][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.28-09.19.38:122][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.28-09.19.39:075][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/Plan-X/PlanX/Content/' took 0.21s
+[2017.11.28-09.19.39:118][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Plan-X/PlanX/Content/Assets/Mapt_data/HubWord/HubWord.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.28-09.19.39:250][  0]LightingResults: New page: Lighting Build
+[2017.11.28-09.19.39:289][  0]MapCheck: New page: Map Check
+[2017.11.28-09.19.39:289][  0]LightingResults: New page: Lighting Build
+[2017.11.28-09.19.46:530][  0]LogAIModule: Creating AISystem for world HubWord
+[2017.11.28-09.19.46:604][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.28-09.19.46:644][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.28-09.19.46:922][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 277.889ms to complete.
+[2017.11.28-09.19.46:922][  0]LogFileHelpers: Loading map 'HubWord' took 7.804
+[2017.11.28-09.19.47:524][  0]LogCollectionManager: Loaded 0 collections in 0.035299 seconds
+[2017.11.28-09.19.52:754][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/Plan-X/PlanX/Saved/Collections/' took 0.01s
+[2017.11.28-09.19.52:754][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/Plan-X/PlanX/Content/Developers/Robbi/Collections/' took 0.01s
+[2017.11.28-09.19.52:754][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/Plan-X/PlanX/Content/Collections/' took 0.01s
+[2017.11.28-09.19.52:754][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.28-09.19.52:762][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2337 classes and 483 folders.
+[2017.11.28-09.19.52:827][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.11.28-09.19.56:302][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.11.28-09.19.56:474][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.11.28-09.19.56:564][  0]LogSlate: Took 0.023997 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.28-09.19.56:589][  0]LogSlate: Took 0.023867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.28-09.19.56:647][  0]LogSlate: Took 0.052668 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.28-09.19.57:156][  0]LogRenderer: Reallocating scene render targets to support 604x288 Format 10 NumSamples 1 (Frame:1).
+[2017.11.28-09.19.57:198][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
+[2017.11.28-09.19.57:503][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.11.28-09.19.57:503][  0]LogLoad: (Engine Initialization) Total time: 38.93 seconds
+[2017.11.28-09.19.57:503][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.28-09.19.57:503][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.28-09.19.57:877][  0]SourceControl: On branch master
+[2017.11.28-09.19.57:877][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.11.28-09.19.57:877][  0]SourceControl: Changes to be committed:
+[2017.11.28-09.19.57:877][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.11.28-09.19.57:877][  0]SourceControl: 	new file:   PlanX/Content/Assets/Blueprints/ResetLevel.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	new file:   PlanX/Content/Assets/Mapt_data/F1_L2/Blueprints/BackToHUBPortal_Blueprint.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	new file:   PlanX/Content/Assets/Mapt_data/F1_L2/Blueprints/EndLevelPortal.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	new file:   PlanX/Content/Assets/SaveGame/PlayerVariables.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	new file:   PlanX/Content/Assets/SaveGame/SaveGameBP.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	new file:   PlanX/Content/Assets/SaveGame/SaveVariables.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/VirtualRealityBP/Blueprints/MenuBP/BP_QuitButton.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: Changes not staged for commit:
+[2017.11.28-09.19.57:877][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.28-09.19.57:877][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Config/DefaultEngine.ini
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Config/DefaultInput.ini
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Blueprints/ResetLevel.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area2/Destructible3.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible4.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible5.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible6.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Destructibles/Area3/Destructible7.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1.umap
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L1/Initial_F1_L1_BuiltData.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L2/Blueprints/EndLevelPortal.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/F1_L2/Conveyer_System/Randome_Box_BP.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/HubWord/Doorways/F1_L1_Box_Trigger_Blueprint.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/HubWord/Doorways/F2_L1_Box_Trigger_Blueprint.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/HubWord/HubWord.umap
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/Mapt_data/HubWord/HubWord_BuiltData.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/SaveGame/PlayerVariables.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/SaveGame/SaveGameBP.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/Assets/SaveGame/SaveVariables.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Content/StarterContent/Shapes/Shape_Sphere_DM1.uasset
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Intermediate/CachedAssetRegistry.bin
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.11.28-09.19.57:877][  0]SourceControl: 	modified:   PlanX/Saved/AutoScreenshot.png
+[2017.11.28-09.19.57:878][  0]SourceControl: 	modified:   PlanX/Saved/Autosaves/Game/Assets/Mapt_data/F1_L1/Initial_F1_L1_Auto1.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/BP_ButtonParent_2017-11-07-23-43-33.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/BP_ButtonParent_2017-11-07-23-49-20.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/BP_ButtonParent_2017-11-07-23-57-17.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/BP_ButtonParent_2017-11-08-00-09-36.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/BP_ButtonParent_2017-11-08-00-17-27.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/BP_FlashLight_Button_2017-11-08-00-26-18.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/BP_FlashLight_Button_2017-11-08-00-35-41.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/BP_FlashLight_Button_2017-11-08-00-40-49.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/BP_Menu_2017-11-08-00-50-13.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/BP_MotionController_2017-11-07-23-34-35.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/BP_MotionController_2017-11-07-23-57-11.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/BP_MotionController_2017-11-08-00-54-25.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Challange_L_1_0_2017-11-07-00-22-04.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Challange_L_1_0_BuiltData_2017-11-07-00-22-04.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Destructible1_2017-11-07-00-33-19.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Destructible2_2017-11-07-00-33-31.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Destructible3_2017-11-07-00-33-34.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Destructible4_2017-11-07-00-41-52.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Destructible4_2017-11-07-01-34-58.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Destructible4_2017-11-07-15-00-42.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Destructible5_2017-11-07-00-41-35.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Destructible5_2017-11-07-15-00-54.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Destructible6_2017-11-07-00-41-18.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Destructible6_2017-11-07-15-01-03.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Destructible7_2017-11-07-00-41-04.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Destructible7_2017-11-07-15-01-12.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/ExitPortal_2017-11-07-00-49-39.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Exit_Spawn_Blueprint_2017-11-07-14-55-03.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Exit_Spawn_Blueprint_2017-11-07-15-01-32.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Exit_Trigger_Box_Blueprint_2017-11-07-00-52-54.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Exit_Trigger_Box_Blueprint_2017-11-07-01-34-25.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Exit_Trigger_Box_Blueprint_2017-11-07-13-19-42.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Exit_Trigger_Box_Blueprint_2017-11-07-15-08-39.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-11-07-00-53-06.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-11-07-01-03-23.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-11-07-01-08-32.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-11-07-01-19-01.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_2017-11-07-01-24-01.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_BuiltData_2017-11-07-01-03-24.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_BuiltData_2017-11-07-01-08-33.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_BuiltData_2017-11-07-01-19-02.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/HubWord_BuiltData_2017-11-07-01-24-02.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-00-12-21.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-00-33-53.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-00-44-29.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-00-49-39.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-00-57-58.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-01-30-51.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-01-36-09.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-13-20-30.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-14-04-59.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-14-24-26.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-14-49-21.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-14-58-37.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-15-03-40.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-15-12-49.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-07-17-47-14.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-08-00-30-47.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_2017-11-08-00-41-54.umap
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-06-21-58-59.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-00-12-22.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-00-33-54.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-00-44-31.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-01-01-12.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-01-34-48.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-13-20-31.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-14-05-00.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-14-24-27.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-14-49-22.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-14-58-38.uasset
+[2017.11.28-09.19.57:878][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-15-12-50.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-07-17-47-16.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-08-00-30-48.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-08-00-41-55.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-11-07-00-08-02.umap
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-11-07-01-38-03.umap
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-11-07-17-50-40.umap
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-11-07-17-58-03.umap
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-11-07-18-16-12.umap
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-11-07-23-31-29.umap
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-11-07-23-37-25.umap
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-11-07-23-59-36.umap
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-11-08-00-10-48.umap
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-11-08-00-28-46.umap
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-11-08-00-43-50.umap
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_2017-11-08-00-56-53.umap
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-07-00-08-02.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-07-17-50-40.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-07-17-58-03.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-07-18-16-12.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-07-23-31-30.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-07-23-37-25.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-07-23-59-37.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-08-00-10-49.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-08-00-28-46.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-08-00-43-50.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-08-00-56-53.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-11-07-00-09-36.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-11-07-00-21-24.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-11-07-01-20-56.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-11-07-01-37-49.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-11-07-17-46-34.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-11-07-23-31-26.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-11-08-00-28-29.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-11-08-00-34-03.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/MotionControllerPawn_2017-11-08-00-58-38.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Player_Disk_Actor_2017-11-07-00-20-14.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Player_Disk_Actor_2017-11-07-00-32-45.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Backup/Player_Disk_Actor_2017-11-07-00-45-01.uasset
+[2017.11.28-09.19.57:879][  0]SourceControl: 	modified:   PlanX/Saved/Config/Windows/Editor.ini
+[2017.11.28-09.19.57:879][  0]SourceControl: 	modified:   PlanX/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.28-09.19.57:879][  0]SourceControl: 	modified:   PlanX/Saved/Config/Windows/Engine.ini
+[2017.11.28-09.19.57:879][  0]SourceControl: 	modified:   PlanX/Saved/Config/Windows/Game.ini
+[2017.11.28-09.19.57:879][  0]SourceControl: 	modified:   PlanX/Saved/Config/WorldState/988875376.json
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.11.07-12.31.19.log
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.11.07-14.00.30.log
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.11.07-14.25.07.log
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.11.07-17.39.08.log
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.11.07-17.49.44.log
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.11.07-23.14.33.log
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.11.08-00.15.58.log
+[2017.11.28-09.19.57:879][  0]SourceControl: 	deleted:    PlanX/Saved/Logs/PlanX-backup-2017.11.08-00.46.22.log
+[2017.11.28-09.19.57:879][  0]SourceControl: 	modified:   PlanX/Saved/Logs/PlanX.log
+[2017.11.28-09.19.57:879][  0]SourceControl: 	modified:   PlanX/Saved/Logs/PlanX_2.log
+[2017.11.28-09.19.57:879][  0]SourceControl: Untracked files:
+[2017.11.28-09.19.57:879][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.28-09.19.57:879][  0]SourceControl: 	PlanX/Intermediate/Build/
+[2017.11.28-09.19.57:879][  0]SourceControl: 	PlanX/Intermediate/Source/
+[2017.11.28-09.19.57:879][  0]SourceControl: 	PlanX/Saved/Autosaves/Game/Assets/Mapt_data/F1_L1/Destructibles/Area3/
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Autosaves/Game/Assets/Sounds/
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Autosaves/Game/StarterContent/
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-22-04-05-31.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-22-04-10-55.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-22-04-17-04.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-22-04-22-41.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-22-04-33-52.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-24-02-08-21.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-24-02-16-35.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-24-02-23-02.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Destructible1_2017-11-26-01-31-52.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Destructible2_2017-11-26-01-40-21.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Destructible4_2017-11-27-00-50-53.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Door1_2017-11-22-04-28-03.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-26-01-41-07.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-26-01-46-40.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-26-01-51-53.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-26-02-07-04.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Door2_2017-11-26-02-26-31.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/EditedCleaningHouse_2017-11-26-02-01-05.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/EndLevelPortal_2017-11-27-00-16-08.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Exit_Spawn_Blueprint_2017-11-26-02-13-09.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Exit_Spawn_Blueprint_2017-11-26-02-18-42.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Exit_Spawn_Blueprint_2017-11-26-02-26-22.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/F1_L1_Box_Trigger_Blueprint_2017-11-27-00-53-32.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/F1_L1_Line4_SoundCue_2017-11-26-01-25-26.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/F1_L1_Line7_SoundCue_2017-11-26-02-04-27.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_2017-11-27-19-35-48.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_2017-11-27-19-42-21.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_2017-11-27-20-16-58.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_BuiltData_2017-11-27-19-35-48.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_BuiltData_2017-11-27-19-42-22.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/HubWord_BuiltData_2017-11-27-20-16-58.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-22-04-08-02.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-22-04-13-07.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-22-04-21-22.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-22-04-27-07.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-22-04-33-46.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-24-01-56-14.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-24-02-10-50.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-24-02-21-05.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-24-02-26-06.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-26-01-32-39.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-26-01-37-57.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-26-01-47-53.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-26-01-53-00.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-26-02-05-28.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-26-02-11-38.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-26-02-22-17.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-26-02-28-08.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-27-00-34-17.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_2017-11-27-00-52-49.umap
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-22-04-08-02.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-22-04-13-08.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-22-04-21-23.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-22-04-27-08.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-22-04-38-07.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-24-01-57-14.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-24-02-10-59.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-24-02-21-06.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-24-02-26-07.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-26-01-32-40.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-26-01-37-58.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-26-01-47-53.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-26-01-53-00.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-26-02-05-29.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-26-02-11-39.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-26-02-22-18.uasset
+[2017.11.28-09.19.57:880][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-26-02-31-04.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-27-00-34-18.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_F1_L1_BuiltData_2017-11-27-00-53-55.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-11-27-00-04-16.umap
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-11-27-00-11-11.umap
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-11-27-00-17-45.umap
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-11-27-00-25-42.umap
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-11-27-00-31-03.umap
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_2017-11-27-00-38-42.umap
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_BuiltData_2017-11-27-00-04-17.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_BuiltData_2017-11-27-00-11-12.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_BuiltData_2017-11-27-00-17-46.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_BuiltData_2017-11-27-00-25-43.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_BuiltData_2017-11-27-00-31-04.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Initial_Fl_L2_CMR_BuiltData_2017-11-27-00-38-43.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_2017-11-26-01-24-50.umap
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_2017-11-27-19-33-27.umap
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-26-01-24-50.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerMap_BuiltData_2017-11-27-19-33-28.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerPawn_2017-11-22-04-07-29.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerPawn_2017-11-26-01-30-08.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerPawn_2017-11-26-01-37-49.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerPawn_2017-11-26-01-45-24.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerPawn_2017-11-26-02-01-10.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerPawn_2017-11-26-02-07-50.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/MotionControllerPawn_2017-11-26-02-14-15.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Player_Disk_Actor_2017-11-24-02-01-45.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Randome_Box_BP_2017-11-27-00-38-35.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/ResetLevel_2017-11-27-00-23-40.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/ResetLevel_2017-11-27-00-30-02.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Shape_Sphere_DM1_2017-11-22-04-38-19.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Shape_Sphere_DM1_2017-11-24-01-50-55.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Backup/Welcome_2017-11-26-02-01-08.uasset
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-0C3D9FB2446327503F06709BC6D3613A_0000/
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-1CFF919846A81CC18C440E93241E6443_0000/
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-60A6374D4332907679FE4AA1D7519A9B_0000/
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-80F677004B842AF16DE258BA3EB16591_0000/
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-823EDD9341D3E7DBF2921A85A2B35737_0000/
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-9CEBCD3541516BA1D2FB0591068B1583_0000/
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-C553DF3040289A1BEC86929784FE0915_0000/
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-C553DF3040289A1BEC86929784FE0915_0001/
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-D452460A42862AE15FBA2D9409C39164_0000/
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-D452460A42862AE15FBA2D9409C39164_0001/
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-D75E62264FA658C2632DE6BB7A85FA7F_0000/
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-D75E62264FA658C2632DE6BB7A85FA7F_0001/
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Crashes/UE4CC-Windows-FDEA5638487F5C57C5628C84EEA4E27F_0000/
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.26-01.22.15.log
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.27-00.02.25.log
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.27-11.05.23.log
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.27-19.29.47.log
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.27-19.34.12.log
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.27-19.36.46.log
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Logs/PlanX-backup-2017.11.28-00.19.09.log
+[2017.11.28-09.19.57:881][  0]SourceControl: 	PlanX/Saved/Logs/PlanX_2-backup-2017.11.28-01.19.20.log
+[2017.11.28-09.19.57:882][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.28-09.19.58:076][  0]LogSlate: Took 0.016452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.28-09.19.58:178][  1]LogFileCache: Retrieving MD5 hashes for directory 'E:/Unreal Projects/Plan-X/PlanX/Content/' took 0.32s
+[2017.11.28-09.19.58:196][  1]LogAssetRegistry: Asset discovery search completed in 32.6068 seconds
+[2017.11.28-09.19.58:198][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.28-09.19.58:198][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2017.11.28-09.20.34:269][ 24]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.28-09.20.34:768][ 25]Cmd: QUIT_EDITOR
+[2017.11.28-09.20.35:209][ 25]LogExit: Preparing to exit.
+[2017.11.28-09.20.36:543][ 25]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/Plan-X/PlanX/Content/' was aborted.
+[2017.11.28-09.20.36:705][ 25]LogExit: Editor shut down
+[2017.11.28-09.20.36:708][ 25]LogExit: Transaction tracking system shut down
+[2017.11.28-09.20.37:015][ 25]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.28-09.20.37:015][ 25]LogDirectoryWatcher: A directory notification for '../../../../../Unreal Projects/Plan-X/PlanX/Content/' was aborted.
+[2017.11.28-09.20.37:015][ 25]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.28-09.20.37:015][ 25]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.28-09.20.38:396][ 25]LogExit: Object subsystem successfully closed.
+[2017.11.28-09.20.38:574][ 25]LogD3D11RHI: Shutdown
+[2017.11.28-09.20.38:580][ 25]LogD3D11RHI: CleanupD3DDevice
+[2017.11.28-09.20.38:809][ 25]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.28-09.20.39:735][ 25]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (522)
+[2017.11.28-09.20.39:735][ 25]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.11.28-09.20.39:746][ 25]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.11.28-09.20.39:768][ 25]LogDirectoryWatcher: A directory notification for 'E:/Unreal Engine/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.28-09.20.39:777][ 25]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.11.28-09.20.39:777][ 25]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.11.28-09.20.39:777][ 25]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.11.28-09.20.39:788][ 25]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/Plan-X/PlanX/Content/Collections/' was aborted.
+[2017.11.28-09.20.39:788][ 25]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/Plan-X/PlanX/Content/Developers/Robbi/Collections/' was aborted.
+[2017.11.28-09.20.39:788][ 25]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/Plan-X/PlanX/Saved/Collections/' was aborted.
+[2017.11.28-09.20.39:788][ 25]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.11.28-09.20.39:808][ 25]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.11.28-09.20.39:808][ 25]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.11.28-09.20.39:829][ 25]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.11.28-09.20.39:829][ 25]LogModuleManager: Shutting down and abandoning module MeshPaint (503)
+[2017.11.28-09.20.39:836][ 25]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (500)
+[2017.11.28-09.20.39:836][ 25]LogModuleManager: Shutting down and abandoning module ActorPickerMode (498)
+[2017.11.28-09.20.39:836][ 25]LogModuleManager: Shutting down and abandoning module GeometryMode (496)
+[2017.11.28-09.20.39:836][ 25]LogModuleManager: Shutting down and abandoning module TextureAlignMode (494)
+[2017.11.28-09.20.39:836][ 25]LogModuleManager: Shutting down and abandoning module BspMode (492)
+[2017.11.28-09.20.39:846][ 25]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (490)
+[2017.11.28-09.20.39:846][ 25]LogModuleManager: Shutting down and abandoning module HardwareSurvey (488)
+[2017.11.28-09.20.39:846][ 25]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (486)
+[2017.11.28-09.20.39:858][ 25]LogModuleManager: Shutting down and abandoning module AutomationWorker (484)
+[2017.11.28-09.20.39:869][ 25]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (482)
+[2017.11.28-09.20.39:883][ 25]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (480)
+[2017.11.28-09.20.39:923][ 25]LogModuleManager: Shutting down and abandoning module PlacementMode (479)
+[2017.11.28-09.20.39:923][ 25]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (476)
+[2017.11.28-09.20.39:923][ 25]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (474)
+[2017.11.28-09.20.39:923][ 25]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (472)
+[2017.11.28-09.20.39:923][ 25]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (470)
+[2017.11.28-09.20.39:923][ 25]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (468)
+[2017.11.28-09.20.39:923][ 25]LogModuleManager: Shutting down and abandoning module Media (467)
+[2017.11.28-09.20.39:923][ 25]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (464)
+[2017.11.28-09.20.39:923][ 25]LogModuleManager: Shutting down and abandoning module CharacterAI (462)
+[2017.11.28-09.20.39:923][ 25]LogModuleManager: Shutting down and abandoning module AudioCapture (460)
+[2017.11.28-09.20.39:923][ 25]LogModuleManager: Shutting down and abandoning module SequenceRecorder (459)
+[2017.11.28-09.20.39:931][ 25]LogModuleManager: Shutting down and abandoning module SessionServices (456)
+[2017.11.28-09.20.39:931][ 25]LogModuleManager: Shutting down and abandoning module ViewportSnapping (454)
+[2017.11.28-09.20.39:931][ 25]LogModuleManager: Shutting down and abandoning module ViewportInteraction (452)
+[2017.11.28-09.20.39:931][ 25]LogModuleManager: Shutting down and abandoning module ClothPainter (450)
+[2017.11.28-09.20.39:954][ 25]LogModuleManager: Shutting down and abandoning module LogVisualizer (448)
+[2017.11.28-09.20.39:967][ 25]LogModuleManager: Shutting down and abandoning module IntroTutorials (446)
+[2017.11.28-09.20.39:989][ 25]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (445)
+[2017.11.28-09.20.40:003][ 25]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.11.28-09.20.40:009][ 25]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.11.28-09.20.40:009][ 25]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.11.28-09.20.40:009][ 25]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.11.28-09.20.40:074][ 25]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (434)
+[2017.11.28-09.20.40:074][ 25]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (432)
+[2017.11.28-09.20.40:074][ 25]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (430)
+[2017.11.28-09.20.40:074][ 25]LogModuleManager: Shutting down and abandoning module InputBindingEditor (428)
+[2017.11.28-09.20.40:082][ 25]LogModuleManager: Shutting down and abandoning module MergeActors (426)
+[2017.11.28-09.20.40:101][ 25]LogModuleManager: Shutting down and abandoning module SizeMap (424)
+[2017.11.28-09.20.40:101][ 25]LogModuleManager: Shutting down and abandoning module TreeMap (422)
+[2017.11.28-09.20.40:116][ 25]LogModuleManager: Shutting down and abandoning module ReferenceViewer (420)
+[2017.11.28-09.20.40:116][ 25]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (418)
+[2017.11.28-09.20.40:128][ 25]LogModuleManager: Shutting down and abandoning module LocalizationService (417)
+[2017.11.28-09.20.40:138][ 25]LogModuleManager: Shutting down and abandoning module HardwareTargeting (414)
+[2017.11.28-09.20.40:138][ 25]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (412)
+[2017.11.28-09.20.40:150][ 25]LogModuleManager: Shutting down and abandoning module UndoHistory (410)
+[2017.11.28-09.20.40:150][ 25]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.11.28-09.20.40:162][ 25]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.11.28-09.20.40:162][ 25]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.11.28-09.20.40:162][ 25]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.11.28-09.20.40:162][ 25]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.11.28-09.20.40:162][ 25]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.11.28-09.20.40:189][ 25]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.11.28-09.20.40:196][ 25]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.11.28-09.20.40:205][ 25]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.11.28-09.20.40:215][ 25]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.11.28-09.20.40:230][ 25]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.11.28-09.20.40:294][ 25]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.11.28-09.20.40:313][ 25]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.11.28-09.20.40:344][ 25]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.11.28-09.20.40:365][ 25]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.11.28-09.20.40:365][ 25]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.11.28-09.20.40:385][ 25]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.11.28-09.20.40:386][ 25]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.11.28-09.20.40:421][ 25]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.11.28-09.20.40:422][ 25]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.11.28-09.20.40:432][ 25]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.11.28-09.20.40:434][ 25]LogModuleManager: Shutting down and abandoning module LevelEditor (367)
+[2017.11.28-09.20.40:445][ 25]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (366)
+[2017.11.28-09.20.40:462][ 25]LogModuleManager: Shutting down and abandoning module ClassViewer (362)
+[2017.11.28-09.20.40:462][ 25]LogModuleManager: Shutting down and abandoning module Toolbox (360)
+[2017.11.28-09.20.40:462][ 25]LogModuleManager: Shutting down and abandoning module ModuleUI (358)
+[2017.11.28-09.20.40:473][ 25]LogModuleManager: Shutting down and abandoning module MovieSceneTools (356)
+[2017.11.28-09.20.40:497][ 25]LogModuleManager: Shutting down and abandoning module OutputLog (354)
+[2017.11.28-09.20.40:497][ 25]LogModuleManager: Shutting down and abandoning module GammaUI (352)
+[2017.11.28-09.20.40:505][ 25]LogModuleManager: Shutting down and abandoning module Documentation (350)
+[2017.11.28-09.20.40:505][ 25]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (348)
+[2017.11.28-09.20.40:505][ 25]LogModuleManager: Shutting down and abandoning module MovieScene (346)
+[2017.11.28-09.20.40:512][ 25]LogModuleManager: Shutting down and abandoning module Niagara (344)
+[2017.11.28-09.20.40:512][ 25]LogModuleManager: Shutting down and abandoning module NiagaraEditor (343)
+[2017.11.28-09.20.40:542][ 25]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (340)
+[2017.11.28-09.20.40:542][ 25]LogModuleManager: Shutting down and abandoning module LauncherPlatform (338)
+[2017.11.28-09.20.40:542][ 25]LogModuleManager: Shutting down and abandoning module AnalyticsET (336)
+[2017.11.28-09.20.40:542][ 25]LogModuleManager: Shutting down and abandoning module PortalServices (334)
+[2017.11.28-09.20.40:542][ 25]LogModuleManager: Shutting down and abandoning module PortalRpc (332)
+[2017.11.28-09.20.40:542][ 25]LogModuleManager: Shutting down and abandoning module MessagingRpc (330)
+[2017.11.28-09.20.40:542][ 25]LogModuleManager: Shutting down and abandoning module AIModule (328)
+[2017.11.28-09.20.40:556][ 25]LogModuleManager: Shutting down and abandoning module GameplayDebugger (327)
+[2017.11.28-09.20.40:564][ 25]LogModuleManager: Shutting down and abandoning module AITestSuite (325)
+[2017.11.28-09.20.40:573][ 25]LogModuleManager: Shutting down and abandoning module ProfilerService (322)
+[2017.11.28-09.20.40:788][ 25]LogModuleManager: Shutting down and abandoning module TaskGraph (320)
+[2017.11.28-09.20.40:802][ 25]LogModuleManager: Shutting down and abandoning module SteamVRController (318)
+[2017.11.28-09.20.40:802][ 25]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (316)
+[2017.11.28-09.20.40:802][ 25]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (314)
+[2017.11.28-09.20.40:802][ 25]LogModuleManager: Shutting down and abandoning module OculusInput (312)
+[2017.11.28-09.20.40:805][ 25]LogModuleManager: Shutting down and abandoning module Ansel (310)
+[2017.11.28-09.20.40:808][ 25]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (308)
+[2017.11.28-09.20.40:808][ 25]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (306)
+[2017.11.28-09.20.40:808][ 25]LogModuleManager: Shutting down and abandoning module CableComponent (304)
+[2017.11.28-09.20.40:815][ 25]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (302)
+[2017.11.28-09.20.40:815][ 25]LogModuleManager: Shutting down and abandoning module AndroidPermission (300)
+[2017.11.28-09.20.40:815][ 25]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (296)
+[2017.11.28-09.20.40:832][ 25]LogModuleManager: Shutting down and abandoning module HTML5Networking (294)
+[2017.11.28-09.20.40:832][ 25]LogModuleManager: Shutting down and abandoning module AlembicImporter (292)
+[2017.11.28-09.20.40:839][ 25]LogModuleManager: Shutting down and abandoning module AlembicLibrary (291)
+[2017.11.28-09.20.40:839][ 25]LogModuleManager: Shutting down and abandoning module GeometryCache (290)
+[2017.11.28-09.20.40:839][ 25]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (289)
+[2017.11.28-09.20.40:839][ 25]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.11.28-09.20.40:839][ 25]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.11.28-09.20.40:857][ 25]LogModuleManager: Shutting down and abandoning module MainFrame (281)
+[2017.11.28-09.20.40:857][ 25]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (278)
+[2017.11.28-09.20.40:875][ 25]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (276)
+[2017.11.28-09.20.40:875][ 25]LogModuleManager: Shutting down and abandoning module DesktopPlatform (275)
+[2017.11.28-09.20.40:883][ 25]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2017.11.28-09.20.40:895][ 25]LogModuleManager: Shutting down and abandoning module UObjectPlugin (270)
+[2017.11.28-09.20.40:895][ 25]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (268)
+[2017.11.28-09.20.40:910][ 25]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (266)
+[2017.11.28-09.20.40:929][ 25]LogModuleManager: Shutting down and abandoning module GitSourceControl (264)
+[2017.11.28-09.20.40:948][ 25]LogModuleManager: Shutting down and abandoning module SourceControl (263)
+[2017.11.28-09.20.40:958][ 25]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (260)
+[2017.11.28-09.20.40:958][ 25]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (258)
+[2017.11.28-09.20.40:958][ 25]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (256)
+[2017.11.28-09.20.40:958][ 25]LogModuleManager: Shutting down and abandoning module PhysXVehicles (254)
+[2017.11.28-09.20.40:958][ 25]LogModuleManager: Shutting down and abandoning module OculusEditor (252)
+[2017.11.28-09.20.40:958][ 25]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (250)
+[2017.11.28-09.20.40:958][ 25]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (248)
+[2017.11.28-09.20.40:958][ 25]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (246)
+[2017.11.28-09.20.40:962][ 25]LogModuleManager: Shutting down and abandoning module UdpMessaging (244)
+[2017.11.28-09.20.41:062][ 25]LogModuleManager: Shutting down and abandoning module TcpMessaging (242)
+[2017.11.28-09.20.41:169][ 25]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (240)
+[2017.11.28-09.20.41:188][ 25]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (238)
+[2017.11.28-09.20.41:188][ 25]LogModuleManager: Shutting down and abandoning module FacialAnimation (236)
+[2017.11.28-09.20.41:188][ 25]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (234)
+[2017.11.28-09.20.41:206][ 25]LogModuleManager: Shutting down and abandoning module GraphEditor (233)
+[2017.11.28-09.20.41:225][ 25]LogModuleManager: Shutting down and abandoning module ContentBrowser (231)
+[2017.11.28-09.20.41:226][ 25]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (228)
+[2017.11.28-09.20.41:226][ 25]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.28-09.20.41:233][ 25]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.28-09.20.41:239][ 25]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.28-09.20.41:239][ 25]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.28-09.20.41:239][ 25]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.28-09.20.41:266][ 25]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.28-09.20.41:266][ 25]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.28-09.20.41:266][ 25]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.28-09.20.41:266][ 25]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.28-09.20.41:283][ 25]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.28-09.20.41:291][ 25]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.28-09.20.41:291][ 25]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.28-09.20.41:314][ 25]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.28-09.20.41:314][ 25]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.28-09.20.41:318][ 25]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.28-09.20.41:318][ 25]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.28-09.20.41:343][ 25]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.28-09.20.41:372][ 25]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.28-09.20.41:387][ 25]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.28-09.20.41:397][ 25]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.28-09.20.41:413][ 25]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.28-09.20.41:414][ 25]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.28-09.20.41:428][ 25]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.28-09.20.41:428][ 25]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.28-09.20.41:428][ 25]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.28-09.20.41:428][ 25]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.28-09.20.41:428][ 25]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.28-09.20.41:428][ 25]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.28-09.20.41:428][ 25]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.28-09.20.41:428][ 25]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.28-09.20.41:428][ 25]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.28-09.20.41:450][ 25]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.28-09.20.41:459][ 25]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.28-09.20.41:459][ 25]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.28-09.20.41:469][ 25]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.28-09.20.41:469][ 25]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.28-09.20.41:490][ 25]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.28-09.20.41:495][ 25]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.28-09.20.41:496][ 25]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.28-09.20.41:862][ 25]LogDerivedDataCache: Shutdown
+[2017.11.28-09.20.41:913][ 25]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.28-09.20.41:913][ 25]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.28-09.20.41:920][ 25]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.28-09.20.41:928][ 25]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.28-09.20.41:939][ 25]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.28-09.20.41:950][ 25]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.28-09.20.41:966][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.28-09.20.41:967][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.28-09.20.41:967][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.28-09.20.41:976][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.28-09.20.41:980][ 25]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.28-09.20.41:981][ 25]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.28-09.20.41:994][ 25]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.28-09.20.41:994][ 25]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.28-09.20.41:994][ 25]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.28-09.20.41:994][ 25]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.28-09.20.42:022][ 25]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.28-09.20.42:040][ 25]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.28-09.20.42:040][ 25]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.28-09.20.42:047][ 25]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B55B7862B-445B-AAD0-1CB7-7CBD09EC730F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=d825469243110291d818ccab09cf7e59%7C38799267579e43f199dcadb14603b7d0%7C62849391-6540-4d55-9d28-bb4dedf70ea1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.28-09.20.42:072][ 25]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.28-09.20.42:117][ 25]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.28-09.20.42:534][ 25]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.28-09.20.42:534][ 25]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.28-09.20.42:546][ 25]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.28-09.20.42:555][ 25]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.28-09.20.42:555][ 25]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.28-09.20.42:555][ 25]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.28-09.20.42:566][ 25]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.28-09.20.42:577][ 25]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.28-09.20.42:577][ 25]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.28-09.20.42:584][ 25]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.28-09.20.42:584][ 25]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.28-09.20.42:584][ 25]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.28-09.20.42:584][ 25]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.28-09.20.42:593][ 25]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.28-09.20.42:594][ 25]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.28-09.20.42:602][ 25]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.28-09.20.42:602][ 25]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.28-09.20.42:612][ 25]LogExit: Exiting.
+[2017.11.28-09.20.42:639][ 25]Log file closed, 11/28/17 01:20:42
