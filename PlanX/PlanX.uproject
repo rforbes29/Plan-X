@@ -11,6 +11,10 @@
 		{
 			"Name": "Ansel",
 			"Enabled": true
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
